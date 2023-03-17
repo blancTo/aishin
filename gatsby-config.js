@@ -7,6 +7,90 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
-  plugins: [],
+  siteMetadata: {
+    title: "埼玉県のペット火葬・葬儀なら｜【公式】愛心ペットセレモ二ー埼玉｜川越市｜所沢市｜さいたま市",
+    keyword:"埼玉,ペット火葬,ペット葬儀,ふじみ野市,火葬場",
+    description: "【公式】埼玉のペット火葬・葬儀なら愛心ペットセレモニー埼玉へ。犬や猫はもちろん、うさぎや小鳥の火葬・葬儀も対応しています。さいたま市、川越市、所沢市、新座市、朝霞市、狭山市など埼玉県内のサービス提供エリアです。最高のお別れを、愛するペットと共に。お気軽にお問い合わせください。",
+    image: "/images/ogp.jpg",
+    url: "https://www.aishin2484.jp",
+    siteUrl: "https://www.aishin2484.jp/",
+  },
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          quality: 75, //デフォルトは50
+        },
+      },
+    },
+    
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {        
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
+    
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100
+      }
+    },    
+
+    {
+      resolve: 'gatsby-source-microcms',
+      options: {
+        apiKey: process.env.API_KEY,
+        serviceId: 'aishin2484',
+        apis: [
+          {
+            endpoint: 'topics',
+          },
+          {
+            endpoint: "category",
+          },
+          {
+            endpoint: 'notice',
+          },
+        ],
+      },
+    },
+
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.aishin2484.jp/`,
+      },
+    },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://www.aishin2484.jp`,
+        sitemap: `https://www.aishin2484.jp/sitemap-0.xml`,
+        policy: [{ userAgent: `*`, allow: `/` }],
+      },
+    },
+    
+    `gatsby-plugin-sass`,
+  ],
 }

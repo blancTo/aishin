@@ -1,0 +1,1138 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page-info #breadcrumb{
+	background: #DDECCD;
+}
+#page-info #breadcrumb ul{
+	overflow: hidden;
+	position: relative;
+	font-size: 90%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+	#page-info #breadcrumb ul{ width: 100%; }
+}
+
+#page-info #breadcrumb li:after { content: " > "; margin: 0 10px; }
+#page-info #breadcrumb li:last-child:after { display: none;}
+#page-info #breadcrumb li a{
+	text-decoration: underline;
+}
+#page-info #page-title{
+	text-align: center;
+	letter-spacing: 1px;
+}
+#page-info #page-title h1{
+	font-size: 190%;
+	padding-top: 30px;
+	margin-bottom: 8px;
+}
+#page-info #page-title p{
+	color: #ccc;
+	margin-top: 8px;
+}
+
+#page-info.price-guide{
+	border-bottom:solid 16px #6bb8aa;
+}
+#page-info.flow-funeral{
+	border-bottom:solid 16px #e286bb;
+}
+#page-info.guidance-business{
+	border-bottom:solid 16px #6d8abe;
+}
+#page-info.service-area{
+	border-bottom:solid 16px #d7b654;
+}
+#page-info.goods{
+	border-bottom:solid 16px #b190de;
+}
+#page-info.faq{
+	border-bottom:solid 16px #db6855;
+}
+#page-info.access,#page-info.topics{
+	border-bottom:solid 16px #7eae58;
+}
+#page-info.company-profile{
+	border-bottom:solid 16px #db6855;
+}
+#page-info.dryice{
+	border-bottom:solid 16px #699dd6;
+}
+
+.kawagoe,.niiza,.asaka,.tokorozawa,.sayama,.saitama,.contactus,.notfound {
+	border-bottom:solid 16px #383838;
+}
+
+
+#container{
+	overflow: hidden;
+	position: relative;
+	padding: 2% 0% 5%;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#submain{
+	float: left;
+	width: 67%;
+	max-width: 2880px;
+}
+
+#side{
+	float: right;
+	width: 24%;
+}
+#side ul{
+	margin: 0px;
+}
+#side li{
+	margin-bottom: 8%;
+}
+#side li a{
+	display: block;
+}
+
+
+#submain #mark1,#submain #mark2,#submain #mark3,#submain #mark4{
+    margin-top:-120px;
+    padding-top:120px;
+}
+#submain h1{
+	position: relative;
+	line-height: 160%;
+	margin-bottom: 5%;
+	margin-top: 0%;
+	color: #444;
+	font-size: 200%;
+	font-weight: 500;
+}
+#submain h2{
+	line-height: 140%;
+	margin-bottom: 2%;
+	font-size: 140%;
+}
+#submain h3{
+	line-height: 140%;
+	margin-bottom: 1%;
+	font-size: 120%;
+}
+#submain h4{
+	line-height: 140%;
+	margin-bottom: -0.8%;
+	font-size: 120%;
+}
+#submain h5{
+	line-height: 100%;
+	font-size: 110%;
+	background: #cee8b9;
+	padding: 1.5%;
+	display: inline-block;
+	font-weight: normal;
+}
+#submain h6{
+	line-height: 100%;
+	font-size: 110%;
+	padding: 1.5%;
+	border: 1px solid #69a936;
+	font-weight: normal;
+	display: inline-block;
+	color: #69a936;
+}
+#submain p{
+	margin-bottom: 2%;
+}
+
+#submain table{
+	border-collapse:collapse;
+	width: 100%;
+}
+#submain table caption{
+	padding: 2%;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 0px none;
+	border-left: 1px solid #CCCCCC;
+	background: #ffffd0;
+	font-size: 120%;
+}
+#submain table th{
+	border: 1px solid #CCCCCC;
+	padding: 2%;
+	font-weight: normal;
+	color: #333333;
+	background: #fffcf6;
+}
+#submain table td{
+	width: 15%;
+	border: 1px solid #CCCCCC;
+	padding: 2%;
+	font-size: 90%;
+}
+#submain table .red{
+	background: #ffe8db;
+}
+
+#submain ul li{
+	margin-bottom: 6px;
+}
+
+#submain ol li{
+	margin-bottom: 6px;
+	list-style: disc outside;
+	margin-left: 20px;
+}
+#submain .next{
+	position: relative;
+}
+#submain .next:after{
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 20px solid transparent;
+    border-top-color: #aaa;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: 12px;
+}
+#submain dl.step{
+	padding: 0px;
+    margin: 0px;
+	float: left;
+	width: 48%;
+	position: relative;
+}
+#submain dl.step:first-child{
+	margin-right: 4%;
+}
+#submain dl.step dt{
+	background: #bcd382;
+	padding: 4%;
+	color: #FFFFFF;
+}
+#submain dl.step dd{
+	border: 1px solid #bcd382;
+	padding: 4%;
+}
+#submain .text1{
+	color: #f26b2f;/*オレンジ*/
+}
+#submain .text2{
+	color: #69a936;/*みどり*/
+}
+#submain .text3{
+	color: #e6113f;/*あか*/
+}
+#submain .bg1{
+	background: #ffffd0;/*黄色*/
+}
+#submain em{
+	font-style: normal;
+	font-weight: bold;
+}
+#submain .box{
+	padding: 3%;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 50px;
+}
+#submain .top0{
+	margin-top: 0px;
+}
+#submain .bottom1{
+	margin-bottom: 1%;
+}
+#submain .bottom2{
+	margin-bottom: 2%;
+}
+#submain .bottom3{
+	margin-bottom: 3%;
+}
+#submain .bottom4{
+	margin-bottom: 4%;
+}
+#submain .bottom5{
+	margin-bottom: 5%;
+}
+#submain .bottom6{
+	margin-bottom: 6%;
+}
+#submain .box2{
+	background: #f2f2f2;
+	margin: 1% 0px 2%;
+	padding: 2.5% 2.5% 1%;
+}
+#submain .box2 h1{
+	font-size: 120%;
+	margin: 0px 0px 2%;
+	padding: 0px 0px 0px 6px;
+	border-left: 6px solid #555;
+	line-height: 100%;
+}
+#submain .box2 h2{
+	font-size: 120%;
+	margin: 0px 0px 2%;
+	padding: 0px;
+}
+
+#submain .blog {
+	padding: 0px;
+	margin-top: 0px;
+	border: none;
+}
+#submain .blog .question,#submain .blog .answer{
+	font-size:80%;
+}
+#submain .blog div{
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+#submain .pickup{
+	background: #fcf0ea;
+	margin: 5% 0px 2%;
+	padding: 2.5% 2.5% 1%;
+}
+#submain .pickup h4{
+	font-size: 120%;
+	margin: 8px 0px 4%;
+	line-height: 100%;
+	font-weight: bold;
+}
+#submain .box3.first{
+	margin-top: 0;
+}
+#submain .gmap{
+	margin-top: 4%;
+    margin-bottom: 0;
+}
+#submain .gmap .gmap-inner{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 35.72%;
+	position: relative;
+	margin: 0;
+	}
+#submain .gmap .gmap-inner iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	}
+#submain .gmap p{
+	font-size: 13px;
+	text-align: right;
+}
+
+@media (max-width: 1024px) {
+    #page-info #breadcrumb{
+        padding: 0 3%;
+    }
+    #container{
+        width: 96%;
+        padding: 2% 0% 3%;
+    }
+    #side{
+        float: right;
+        width: 27%;
+    }
+    #submain .gmap .gmap-inner{
+        padding-bottom: 50%;
+    }
+}
+
+@media (max-width: 765px) {
+    #page-info #breadcrumb ul {
+        font-size: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page-info #page-title {
+        font-size: 85%;
+    }
+    #page-info hr {
+        margin-top: 15px;
+    }
+    #submain{
+        float: none;
+        width: 100%;
+        margin-bottom:10%;
+    }
+    #side{
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+    #side li{
+        margin-bottom: 4%;
+        float:left;
+        width:46%;
+        margin-left:2%;
+        margin-right:2%;
+    }
+    #side img{
+        width: 100%;
+    }
+    #submain .gmap .gmap-inner{
+        padding-bottom: 66.66%;
+    }
+}
+
+@media (max-width: 565px) {
+    #side li{
+        margin-bottom: 4%;
+        float:none;
+        width:100%;
+        margin-left:0%;
+        margin-right:0%;
+    }
+	.ggmap {
+		width: 100%;
+		position: relative;
+		padding-top: 56.25%;
+	  }
+	  
+	  .ggmap iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	  }
+}
+
+#main .goods-rack{
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 0%;
+	margin-top: 2%;
+}
+dl.goods{
+	padding-top: 0%;
+	padding-bottom: 3%;
+	float: left;
+	width: 28.6%;
+	margin-right: 7%;
+}
+dl.break{
+	margin-right: 0%;
+}
+.goods dd{
+	text-align: center;
+	margin: 4% 6% 3.5%;
+}
+.goods dt{
+	text-align: center;
+	margin: 6% 1%;
+}
+.goods dt.goods-title{
+	color: #69a936;
+	font-size: 99%;
+	position: relative;
+	font-weight: bold;
+}
+.goods dd.goods-img{
+	padding: 0%;
+	overflow: hidden;
+	position: relative;
+	margin: 0px;
+}
+.goods dd.goods-img img{
+	width: 100%;
+}
+.goods dd.goods-2{
+	font-size: 80%;
+	line-height: 120%;
+	color: #777;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #777;
+	padding: 4.5% 0px;
+}
+.goods dd.goods-3{
+	color: #de5943;
+	margin-top: 5.6%;
+}
+.goods dd.goods-3 span{
+	font-size: 70%;
+}
+.goods dd.goods-4{
+	font-size: 86%;
+	color: #555;
+	text-align: left;
+	line-height: 140%;
+}
+
+#main div {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#main div .text{
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 465px) {
+
+dl.goods{
+	float: left;
+	width: 100%;
+	margin-right: 0%;
+}
+}
+
+#submain .blog{
+	padding: 0 1px 38px;
+	border-bottom: 3px double #666666;
+}
+#submain .blog h1{
+	font-size: 140%;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+#submain .blog h2{
+	position: relative;
+	font-size: 130%;
+	margin-bottom: 24px;
+	font-weight: bold;
+	color: #222;
+	background: #eee;
+	padding: 20px 20px 20px 20px;
+}
+#submain .blog h2:before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 6px;
+    height: 20px;
+    margin-top: -10px;
+    background: #333;
+    content: '';
+}
+#submain .blog h3{
+	position: relative;
+	font-size: 120%;
+	margin-bottom: 22px;
+	font-weight: bold;
+	padding: 20px 0px 20px 18px;
+	color: #333;
+	border-bottom: 1px dashed #CCCCCC;
+}
+#submain .blog h3:before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 6px;
+    height: 18px;
+    margin-top: -9px;
+    background: #333;
+    content: '';
+}
+#submain .blog .byline h4{
+	font-size: 100%;
+	margin-bottom: 20px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background: #aaa;
+	display: inline-block;
+	padding: 12px 18px;
+}
+#submain .blog p{
+	color: #666666;
+	font-size: 100%;
+	margin-bottom: 8px;
+	word-break: break-all;
+}
+#main .list .blog p{
+	font-size: 100%;
+	line-height:180%;
+}
+#submain .blog img{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	display:block;
+	max-width:100%;
+}
+#submain .blog .text img{
+	display:inline;
+	margin: 0px 2px;
+}
+#submain .blog .question{
+	background: #efefef;
+	padding: 20px;
+}
+#submain .blog .question h4{
+	background: url(../images/q.png) no-repeat left center;
+	background-size:21px;
+	padding-left: 60px;
+}
+#submain .blog .answer{
+	padding: 20px;
+	border: 1px solid #efefef;
+	margin-bottom: 18px;
+}
+#submain .blog .answer h4{
+	background: url(../images/a.png) no-repeat left center;
+	background-size:21px;
+	padding-left: 60px;
+	font-weight: normal;
+}
+#submain .blog .text{
+	margin-bottom: 18px;
+}
+
+#submain .blog .liner {
+	padding-bottom: 10px;
+}
+
+#submain .blog .column{
+	float: left;
+	margin-top: -12px;
+	margin-bottom: 6px;
+}
+
+#submain .blog .column2{
+	width: 47%;
+	margin-right: 6%;
+}
+#submain .blog .column3{
+	width: 30%;
+	margin-right: 5%;
+}
+#submain .blog .column4{
+	width: 22%;
+	margin-right: 4%;
+}
+#submain .blog .column5{
+	width: 17.6%;
+	margin-right: 3%;
+}
+#submain .blog .simple{
+	padding: 2%;
+	border: 1px solid #ddd;
+	margin-bottom: 22px;
+}
+#submain .blog .simple .image{
+	width: 35%;
+}
+#submain .blog .simple img{
+	margin: 0px;
+	padding: 0px;
+}
+#submain .blog .detail{
+	padding: 2%;
+	border: 1px solid #ddd;
+	margin-bottom: 22px;
+}
+#submain .blog .detail .image{
+	width: 35%;
+}
+#submain .blog .detail img{
+	margin: 0px;
+	padding: 0px;
+}
+#submain .blog .detail .detail-list{
+	width: 62%;
+	float: left;
+	margin-right: -1px;
+	margin-left: -1px;
+}
+#submain .blog dl{
+	font-size: 90%;
+	display: table;
+	border-collapse: collapse;
+	width: 100%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+#submain .blog dt{
+	display: table-cell;
+	border-collapse: collapse;
+	border: none;
+	padding: 2.5%;
+	width: 30%;
+	color: #FFFFFF;
+	background: #CCCCCC;
+	border: 1px solid #CCCCCC;
+}
+#submain .blog dd{
+	display: table-cell;
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+	padding: 2.5%;
+	width: 65%;
+}
+#submain .blog table{
+	margin:0px 0px 18px;
+	width: 100%;
+}
+#submain .blog table th{
+	background: #CCCCCC;
+	text-align: left;
+}
+
+#submain .blog table,#submain .blog table th,#submain .blog table td{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #999;
+	font-size: 90%;
+	color: #666;
+	padding: 2.5%;
+}
+#submain .blog .beforeafter{
+	position: relative;
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+#submain .blog .beforeafter img{
+	margin: 0px;
+}
+#submain .blog .beforeafter-horizontal .arrow img,#submain .blog .beforeafter-vertical .arrow img{
+	opacity: 0;
+}
+#submain .blog .beforeafter-horizontal{
+	position: relative;
+}
+#submain .blog .beforeafter-horizontal .text{
+	margin-top: 18px;
+}
+#submain .blog .beforeafter-horizontal .before{
+	float: left;
+	margin-right: 5%;
+	width: 40%;
+	padding: 2%;
+	background: #f8f8f8;
+}
+#submain .blog .beforeafter-horizontal .after{
+	float: right;
+	width: 40%;
+	padding: 2%;
+	background: #f8f8f8;
+}
+#submain .blog .beforeafter-horizontal .arrow{
+	margin-left: -3%;
+	width: 6%;
+	margin-top: -128px;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	background: url(../images/horizontal.png) no-repeat center center;
+	background-size:contain;
+	height: auto;
+}
+
+#submain .blog .beforeafter-vertical .before{
+	padding: 5%;
+	margin: 40px auto 0px;
+	background: #f8f8f8;
+	width: 70%;
+	overflow: hidden;
+	position: relative;
+}
+#submain .blog .beforeafter-vertical .before .image{
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+}
+#submain .blog .beforeafter-vertical .before .text{
+	float: left;
+	width: 50%;
+
+}
+#submain .blog .beforeafter-vertical .after{
+	padding: 5%;
+	margin: 0px;
+	background: #f8f8f8;
+	overflow: hidden;
+	position: relative;
+}
+#submain .blog .beforeafter-vertical .after .image{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#submain .blog .beforeafter-vertical .after .text{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 18px;
+}
+#submain .blog .beforeafter-vertical .arrow{
+	margin: 2.5%;
+	width: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/vertical.png) no-repeat center center;
+	background-size:contain;
+	height: auto;
+}
+#submain .blog .beforeafter .caption{
+	display: none;
+}
+
+#submain .blog .slides .controls {
+	margin-top: 102px;
+}
+
+#submain .blog div.image img {
+    background-color: #fff;
+    padding: 2%;
+    border-width: 1px;
+    border-color: #D8D8D8;
+    border-style: solid;
+	max-width: 95%;
+}
+
+fieldset, img{
+	border-width: 0;
+}
+q:before,q:after{
+content:'';
+}
+.clearfix{
+	min-height: 1px;
+}
+.clearfix:after{
+	height: 0;
+	display: block;
+	content: ".";
+	clear: both;
+	visibility: hidden;
+}
+.clr{
+	line-height: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+	clear:both;
+	visibility:hidden;
+}
+.hidden{
+display: none;
+}
+.plus{
+margin-left: 1px !important;
+}
+.noborder{
+border: none !important;
+padding: 0 !important;
+max-width: 100% !important;
+}
+.nomargin{
+margin: 0 !important;
+}
+.nopadding{
+padding: 0 !important;
+}
+.chop{
+margin-right: 0 !important;
+}
+.left{
+	float: left;
+	margin-right: 3%;
+}
+.auto{
+	margin-right: auto;
+	margin-left: auto;
+}
+.right{
+	float: right;
+	margin-left: 3%;
+}
+
+
+@media screen and (max-width: 765px) {
+#submain .blog .column5 {
+	width: 100%;
+	float:none;
+	margin-top: 5%;
+	position:relative;
+	overflow:hidden;
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 5%;
+}
+#submain .blog .column5 .image {
+    width: 30%;
+	float:none;
+    margin-right: 5%;
+	float:left;
+}
+#submain .blog .column5 .image img{
+	margin: 0%;
+	padding: 0px;
+}
+#submain .blog .column5 .text {
+	width: 65%;
+	float:left;
+	margin: 0px;
+	padding: 0px;
+}
+}
+@media screen and (max-width: 665px) {
+#submain .blog .column4 {
+	width: 100%;
+	float:none;
+	margin-top: 5%;
+	position:relative;
+	overflow:hidden;
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 5%;
+}
+#submain .blog .column4 .image {
+    width: 30%;
+	float:none;
+    margin-right: 5%;
+	float:left;
+}
+#submain .blog .column4 .image img{
+	margin: 0%;
+	padding: 0px;
+}
+#submain .blog .column4 .text {
+	width: 65%;
+	float:left;
+	margin: 0px;
+	padding: 0px;
+}
+}
+@media screen and (max-width: 565px) {
+
+#submain .blog .column3 {
+	width: 100%;
+	float:none;
+	margin-top: 5%;
+	position:relative;
+	overflow:hidden;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5%;
+}
+#submain .blog .column3 .image {
+    width: 30%;
+	float:none;
+    margin-right: 5%;
+	float:left;
+}
+#submain .blog .column3 .image img{
+	margin: 0%;
+	padding: 2%;
+}
+#submain .blog div.image img {
+    background-color: #fff;
+    padding: 2%;
+    border-width: 1px;
+    border-color: #D8D8D8;
+    border-style: solid;
+	max-width: 95%;
+}
+#submain .blog .column3 .text {
+	width: 65%;
+	float:left;
+	margin: 0px;
+	padding: 0px;
+}
+#submain .blog .beforeafter-vertical .before {
+    padding: 5%;
+    width: 80%;
+}
+}
+@media screen and (max-width: 480px) {
+#submain .blog .column2 {
+	width: 100%;
+	float:none;
+	margin-top: 8%;
+	position:relative;
+	overflow:hidden;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 5%;
+}
+#submain .blog .column2 .image {
+    width: 100%;
+	float:none;
+	padding-bottom: 3%;
+}
+#submain .blog .column2 .image img{
+	margin: 0%;
+	padding: 0px;
+}
+#submain .blog .column2 .text {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.left,.right {
+    float: none;
+    margin: 0%;
+    margin-bottom: 2%;
+}
+
+#submain .blog .simple .image,#submain .blog .detail .image,
+#submain .blog .detail .detail-list,#submain .blog .beforeafter-vertical .before .image {
+    width: 100%;
+}
+#submain .blog .beforeafter-vertical .before .text {
+    float: nonve;
+    width: 100%;
+	margin-top:3%;
+}
+#submain .blog .detail table {
+    margin: 2% 0px 2%;
+}
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*カラー設定*/
+
+/*見出し*/
+#submain .blog h2 {
+    font-size: 130%;
+    font-weight: bold;
+    color: #222;
+    background: #eee;
+}
+#submain .blog h3 {
+    font-size: 120%;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px dashed #CCCCCC;
+}
+#submain .blog .byline h4 {
+    font-size: 100%;
+    font-weight: normal;
+    color: #FFFFFF;
+    background: #aaa;
+    display: inline-block;
+}
+/*Q&A*/
+#submain .blog .question h4 {
+    background: url(../images/q.png) no-repeat left center;
+    background-size: 21px;
+    padding-left: 60px;
+}
+#submain .blog .answer h4 {
+    background: url(../images/a.png) no-repeat left center;
+    background-size: 21px;
+    padding-left: 60px;
+    font-weight: normal;
+}
+/*ボックス、テーブル*/
+#submain .blog .simple,#submain .blog .simple,#submain .blog .detail,#submain .blog dt,#submain .blog dt {
+    border: 1px solid #ddd;
+}
+#submain .blog table, #submain .blog table th, #submain .blog table td {
+    border: 1px solid #999;
+    color: #666;
+}
+#submain .blog table th {
+    background: #CCCCCC;
+}
+#submain .blog dt {
+    color: #FFFFFF;
+    background: #CCCCCC;
+    border: 1px solid #CCCCCC;
+}
+#submain .blog dd {
+    border: 1px solid #CCCCCC;
+}
+#submain .blog .beforeafter-horizontal .before,#submain .blog .beforeafter-horizontal .after,
+#submain .blog .beforeafter-vertical .before,#submain .blog .beforeafter-vertical .after {
+    background: #f8f8f8;
+}
+/*グーグルマップ*/
+div.map-canvas{
+	width: 100%;
+	height: 500px;
+	margin: 35px auto;
+}
+@media screen and (max-width: 560px) {
+div.map-canvas{
+	height: 300px;
+}
+}
+
+
+
+
+
+
+
+
+/*2016/11/25追加
+ブログの背景色とブロック、テキストサイズ*/
+
+#main #single #book{
+	background: #F1F1F1;
+	width: 100%;
+}
+#main #single #book #book-inside{
+	width: 100%;
+	max-width: 765px;
+	background: #FFFFFF;
+	padding: 0%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main #single #book #book-inside #book-wrap{
+	border: 1px solid #F1F1F1;
+	padding: 5% 6%;
+}
+#main #single #book #book-inside #book-wrap p{
+	font-size: 16px;
+	line-height: 210%;
+	position:relative;
+}
+#main #single #book #book-inside #book-wrap img{
+	max-width: 100%;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+.yellowLine {
+    font-weight: bold;
+    color: #006600;
+    background-color: rgb(255, 255, 153);
+}
+#submain .blog .text__city p {
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+#submain .blog .text__ref p {
+    font-size: 10pt;
+    color: #993300;
+}
+#submain .blog .text__company p {
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+#submain .blog div.table {
+    margin-bottom: 1em;
+}
+
+.cat_list {
+    color: #fff;
+    background: #b1c8dc;
+    display: block;
+    padding: 5px 14px;
+    margin-right: auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: auto;
+    max-width: 54px;
+}

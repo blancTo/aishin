@@ -1,0 +1,320 @@
+@charset "utf-8";
+
+#page-info #page-title{
+	text-align: center;
+	letter-spacing: 1px;
+}
+#page-info #page-title h1{
+	font-size: 190%;
+	padding-top: 30px;
+	margin-bottom: 8px;
+}
+#page-info #page-title p{
+	color: #CCCCCC;
+	margin-top: 8px;
+}
+#page-info hr{
+	margin-top: 28px;
+	border-top-style : solid;
+	border-top-width : 16px;
+}
+#page-info hr.line{
+	border-top-color : #b4cbe0;
+}
+
+
+#container{
+	overflow: hidden;
+	position: relative;
+	padding: 2% 0% 5%;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main.index {	
+	width: 100%!important;
+	max-width: 100%;
+}
+#display-item{
+	margin: 0px 0px 38px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	color: #fff!important;
+	background: #97C469 url(../images/list.png) no-repeat 20px center;
+	background-size:25px;
+	padding-left: 50px;
+	
+}
+#main #display-item .date{
+	font-size: 11px;
+	color:  #79cae6;
+	padding: 0px 0px 8px 5px;
+	margin: 0px;
+	display: block;
+	line-height: 11px;
+}
+#main #single {
+    margin: 0px 0px 0px;
+    padding: 2% 0%;
+    border-top: 0px none #CCCCCC;
+    border-bottom: 0px none #CCCCCC;
+    display: table;
+    width: 100%;
+}
+#main .list{
+	margin: -1px 0px 0px;
+	padding: 5% 0%;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	display: table;
+	width:100%;
+}
+#main .list a{
+	text-decoration: none;
+	color:#444;
+	display:inline-block;
+}
+#main .list a:hover{
+	color: #0099FF;
+}
+#main .list .rack{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0%;
+	width: 70%;
+}
+#main .list h1{
+	font-size: 138%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#main .list h1 a{
+	text-decoration: none;
+	color:#444;
+}
+#main .list h1 a:visited{
+	color:#7a44af;
+}
+#main .list p{
+	font-size: 90%;
+	margin: 0px;
+	color: #666;
+}
+#main .list p.date{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 11px;
+	color:  #8ea7bd;
+	padding: 0% 3%;
+	margin: 0px;
+	line-height: 11px;
+	width: 24%;
+}
+#main .list p.date .table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+#main .list p.date a{
+	color: #FFFFFF;
+	background: #b1c8dc;
+	display: block;
+	padding: 5px 14px;
+	margin-right: auto;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+	border-radius: 50px;
+	text-align: center;
+	margin-left: auto;
+	max-width:54px;
+}
+#main .list p .blobdate{
+	text-align: center;
+	display: block;
+	margin-top: 8px;
+}
+
+#main #display-item2{
+	border-top: 3px double #666666;
+	border-bottom: 3px double #666666;
+	margin: 0px 0px 38px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	font-size: 145%;
+}
+#main #display-item2 .date{
+	font-size: 11px;
+	color:  #b4cbe0;
+	padding: 0px 0px 8px 5px;
+	margin: 0px;
+	display: block;
+	line-height: 11px;
+}
+
+#side{
+	float: right;
+	width: 24%;
+}
+#side .side-menu{
+	margin: 0px;
+}
+
+#side .side-menu li.dt{
+	color: #FFFFFF;
+	background: #b4cbe0;
+	padding: 10px;
+}
+#side .side-menu h3{
+	color: #FFFFFF;
+	background: #b4cbe0;
+	padding: 10px;
+    font-size: 85%;
+	font-weight:normal;
+}
+#side .side-menu ul{
+	margin: 0px;
+}
+#side .side-menu li{
+	padding: 10px;
+	border-top: 0px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	font-size: 85%;
+}
+
+
+/*WP-PageNavi*/
+.wp-pagenavi{
+	overflow: hidden;
+	position: relative;
+	margin-top: 48px;
+}
+.wp-pagenavi span{
+	padding: 6px;
+	border: 1px solid #CCCCCC;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: block;
+	float: left;
+}
+.wp-pagenavi .pages{
+	color: #CCCCCC;
+}
+.wp-pagenavi .current{
+	border: 1px solid #888;
+	color: #FFFFFF;
+	background: #888;
+}
+.wp-pagenavi a{
+	padding: 6px;
+	border: 1px solid #CCCCCC;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	display: block;
+	float: left;
+}
+
+
+/*PageNavi*/
+#page-navigation{
+	overflow: hidden;
+	position: relative;
+	margin-top: 48px;
+}
+#page-navigation strong{
+	padding: 6px;
+	border: 1px solid #CCCCCC;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	display: block;
+	float: left;
+	border: 1px solid #888;
+	color: #FFFFFF;
+	background: #888;
+}
+
+#page-navigation a{
+	padding: 6px;
+	border: 1px solid #CCCCCC;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	display: block;
+	float: left;
+}
+/*シングルページのページング*/
+#pagination{
+	overflow: hidden;
+	position: relative;
+}
+#pagination li.prev{
+	display: block;
+	float: right;
+	width: 49%;
+	text-align: right;
+}
+#pagination li.next{
+	display: block;
+	float: left;
+	width: 49%;
+}
+#pagination li span{
+	font-size: 80%;
+	color: #999999;
+	display: block;
+	padding-bottom: 4px;
+}
+
+@media (max-width: 1024px) {
+#page-info #breadcrumb{
+	padding: 0 3%;
+}
+#container{
+	width: 96%;
+    padding: 2% 0% 3%;
+}
+#side{
+	float: right;
+	width: 27%;
+}
+}
+
+@media (max-width: 765px) {
+#page-info #breadcrumb ul {
+    font-size: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#page-info #page-title {
+    font-size: 85%;
+}
+#page-info hr {
+    margin-top: 15px;
+}
+#main{
+	float: none;
+	width: 100%;
+	margin-bottom:10%;
+	font-size:85%;
+}
+#side{
+	float: none;
+	width: 100%;
+	margin-bottom: 4%;
+}
+}
+
+@media (max-width: 565px) {
+    #side .side-menu li{
+        margin-bottom: 0%;
+        float:none;
+        width:100%;
+        margin-left:0%;
+        margin-right:0%;
+        border-left-width:0px;
+        border-top: 0px solid #CCCCCC;
+        border-right: 0px solid #CCCCCC;
+        border-bottom: 1px solid #CCCCCC;
+        border-left: 0px solid #CCCCCC;
+    }
+}
