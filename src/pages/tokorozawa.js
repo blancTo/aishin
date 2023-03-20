@@ -251,81 +251,47 @@ export default function tokorozawa() {
     </>
   )
 }
+const jsonN = "ペット火葬所沢市｜【公式】愛心ペットセレモニー埼玉",
+jsonS = "tokorozawa",
+jsonD = "所沢市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。";
 
 const jsonLd = {
-  "@context":"https://schema.org",
-  "@graph":[
-    {
-      "@type":"BreadcrumbList",
-      "@id":"https://www.aishin2484.jp/tokorozawa/#breadcrumblist",
-      "itemListElement":[
-        {
-          "@type":"ListItem",
-          "@id":"https://www.aishin2484.jp/#listItem",
-          "position":1,
-          "item":{
-            "@type":"WebPage",
-            "@id":"https://www.aishin2484.jp/",
-            "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
-            "description":"【公式】埼玉のペット火葬・葬儀なら愛心ペットセレモニー埼玉へ。犬や猫はもちろん、うさぎや小鳥の火葬・葬儀も対応しています。さいたま市、川越市、所沢市、新座市、朝霞市、狭山市など埼玉県内のサービス提供エリアです。最高のお別れを、愛するペットと共に。お気軽にお問い合わせください。",
-            "url":"https://www.aishin2484.jp/"
-          },
-          "nextItem":"https://www.aishin2484.jp/tokorozawa/#listItem"
-        },
-        {
-          "@type":"ListItem",
-          "@id":"https://www.aishin2484.jp/tokorozawa/#listItem",
-          "position":2,
-          "item":{
-            "@type":"WebPage",
-            "@id":"https://www.aishin2484.jp/tokorozawa/",
-            "name":"ペット火葬所沢市｜【公式】愛心ペットセレモニー埼玉",
-            "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の所沢市にお住まいの方へ。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-            "url":"https://www.aishin2484.jp/tokorozawa/"
-          },
-          "previousItem":"https://www.aishin2484.jp/#listItem"
-        }
-      ]
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": `${jsonN}`,
+    "description": `${jsonD}`,
+    "url": `https://www.aishin2484.jp/${jsonS}/`,
+    "inLanguage": "ja",
+    "publisher": {
+        "@type": "Organization",
+        "name": "愛心ペットセレモニー埼玉"
     },
-    {
-      "@type":"Person",
-      "@id":"https://www.aishin2484.jp/tokorozawa/#person"
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
+                "item": "https://www.aishin2484.jp/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": `${jsonN}`,
+                "item": `https://www.aishin2484.jp/${jsonS}/`
+            }
+        ]
     },
-    {
-      "@type":"WebPage",
-      "@id":"https://www.aishin2484.jp/tokorozawa/#webpage",
-      "url":"https://www.aishin2484.jp/tokorozawa/",
-      "name":"ペット火葬所沢市｜【公式】愛心ペットセレモニー埼玉",
-      "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の所沢市にお住まいの方へ。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-      "inLanguage":"ja",
-      "isPartOf":{
-        "@id":"https://www.aishin2484.jp/tokorozawa/#website"
-      },
-      "breadcrumb":{
-        "@id":"https://www.aishin2484.jp/tokorozawa/#breadcrumblist"
-      },
-      "datePublished":"2022-12-19T01:06:53+09:00",
-      "dateModified":"2023-01-05T3:00:07+09:00"
-    },
-    {
-      "@type":"WebSite",
-      "@id":"https://www.aishin2484.jp/tokorozawa/#website",
-      "url":"https://www.aishin2484.jp/tokorozawa/",
-      "name":"ペット火葬所沢市｜【公式】愛心ペットセレモニー埼玉",
-      "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の所沢市にお住まいの方へ。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-      "inLanguage":"ja",
-      "publisher":{
-        "@id":"https://www.aishin2484.jp/tokorozawa/#person"
-      }
-    }
-  ]
+    "datePublished": "2022-12-19T01:06:53+09:00",
+    "dateModified": "2023-03-18T3:00:07+09:00"
 }
 
 export const Head = () => (
   <>
     <Seo
-      title2="ペット火葬所沢市｜【公式】愛心ペットセレモニー埼玉"
-      description="所沢市でペット火葬に関するお悩みは、愛心ペットセレモニー埼玉にお任せください。犬や猫、うさぎや小鳥など、あらゆる種類のペットの火葬を承っております。ペットの最期までお世話をいたしますので、安心してお任せいただけます。詳細はお問い合わせください。"
+      title2={jsonN}
+      description={jsonD}
     />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>

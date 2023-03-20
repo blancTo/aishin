@@ -269,81 +269,48 @@ export default function saitama() {
   )
 }
 
+const jsonN = "ペット火葬さいたま市｜【公式】愛心ペットセレモニー埼玉",
+jsonS = "saitama",
+jsonD = "さいたま市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。";
+
 const jsonLd = {
-    "@context":"https://schema.org",
-    "@graph":[
-      {
-        "@type":"BreadcrumbList",
-        "@id":"https://www.aishin2484.jp/saitama/#breadcrumblist",
-        "itemListElement":[
-          {
-            "@type":"ListItem",
-            "@id":"https://www.aishin2484.jp/#listItem",
-            "position":1,
-            "item":{
-              "@type":"WebPage",
-              "@id":"https://www.aishin2484.jp/",
-              "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
-              "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-              "url":"https://www.aishin2484.jp/"
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": `${jsonN}`,
+    "description": `${jsonD}`,
+    "url": `https://www.aishin2484.jp/${jsonS}/`,
+    "inLanguage": "ja",
+    "publisher": {
+        "@type": "Organization",
+        "name": "愛心ペットセレモニー埼玉"
+    },
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
+                "item": "https://www.aishin2484.jp/"
             },
-            "nextItem":"https://www.aishin2484.jp/saitama/#listItem"
-          },
-          {
-            "@type":"ListItem",
-            "@id":"https://www.aishin2484.jp/saitama/#listItem",
-            "position":2,
-            "item":{
-              "@type":"WebPage",
-              "@id":"https://www.aishin2484.jp/saitama/",
-              "name":"ペット火葬さいたま市 | 愛心ペットセレモ二ー埼玉",
-              "description":"さいたま市でペット火葬をお探しの方は、愛心ペットセレモニー埼玉にお任せください。犬や猫、うさぎや小鳥など、あらゆる種類のペットの火葬を承っております。手厚いサポートで、ペットの最後までのお世話をいたしますので、安心してお任せいただけます。お気軽にお問い合わせください。",
-              "url":"https://www.aishin2484.jp/saitama/"
-            },
-            "previousItem":"https://www.aishin2484.jp/#listItem"
-          }
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": `${jsonN}`,
+                "item": `https://www.aishin2484.jp/${jsonS}/`
+            }
         ]
-      },
-      {
-        "@type":"Person",
-        "@id":"https://www.aishin2484.jp/saitama/#person"
-      },
-      {
-        "@type":"WebPage",
-        "@id":"https://www.aishin2484.jp/saitama/#webpage",
-        "url":"https://www.aishin2484.jp/saitama/",
-        "name":"ペット火葬さいたま市 | 愛心ペットセレモ二ー埼玉",
-        "description":"さいたま市でペット火葬をお探しの方は、愛心ペットセレモニー埼玉にお任せください。犬や猫、うさぎや小鳥など、あらゆる種類のペットの火葬を承っております。手厚いサポートで、ペットの最後までのお世話をいたしますので、安心してお任せいただけます。お気軽にお問い合わせください。",
-        "inLanguage":"ja",
-        "isPartOf":{
-          "@id":"https://www.aishin2484.jp/saitama/#website"
-        },
-        "breadcrumb":{
-          "@id":"https://www.aishin2484.jp/saitama/#breadcrumblist"
-        },
-        "datePublished":"2022-12-19T01:06:53+09:00",
-        "dateModified":"2023-01-05T3:00:07+09:00"
-      },
-      {
-        "@type":"WebSite",
-        "@id":"https://www.aishin2484.jp/saitama/#website",
-        "url":"https://www.aishin2484.jp/saitama/",
-        "name":"ペット火葬さいたま市 | 愛心ペットセレモ二ー埼玉",
-        "description":"さいたま市でペット火葬をお探しの方は、愛心ペットセレモニー埼玉にお任せください。犬や猫、うさぎや小鳥など、あらゆる種類のペットの火葬を承っております。手厚いサポートで、ペットの最後までのお世話をいたしますので、安心してお任せいただけます。お気軽にお問い合わせください。",
-        "inLanguage":"ja",
-        "publisher":{
-          "@id":"https://www.aishin2484.jp/saitama/#person"
-        }
-      }
-    ]
-  }
+    },
+    "datePublished": "2022-12-19T01:06:53+09:00",
+    "dateModified": "2023-03-18T3:00:07+09:00"
+}
   
-  export const Head = () => (
-    <>
-      <Seo
-        title2="ペット火葬さいたま市｜【公式】愛心ペットセレモニー埼玉"
-        description="さいたま市でペット火葬をお探しの方は、愛心ペットセレモニー埼玉にお任せください。犬や猫、うさぎや小鳥など、あらゆる種類のペットの火葬を承っております。手厚いサポートで、ペットの最後までのお世話をいたしますので、安心してお任せいただけます。お気軽にお問い合わせください。"
-      />
-      <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-    </>
-  )
+export const Head = () => (
+  <>
+    <Seo
+        title2={jsonN}
+        description={jsonD}
+    />
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+  </>
+)

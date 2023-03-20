@@ -261,81 +261,48 @@ export default function kawagoe() {
     )
 }
 
+const jsonN = "ペット火葬川越市｜【公式】愛心ペットセレモニー埼玉",
+jsonS = "kawagoe",
+jsonD = "川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。";
+
 const jsonLd = {
-    "@context":"https://schema.org",
-    "@graph":[
-      {
-        "@type":"BreadcrumbList",
-        "@id":"https://www.aishin2484.jp/kawagoe/#breadcrumblist",
-        "itemListElement":[
-          {
-            "@type":"ListItem",
-            "@id":"https://www.aishin2484.jp/#listItem",
-            "position":1,
-            "item":{
-              "@type":"WebPage",
-              "@id":"https://www.aishin2484.jp/",
-              "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
-              "description":"川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。",
-              "url":"https://www.aishin2484.jp/"
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": `${jsonN}`,
+    "description": `${jsonD}`,
+    "url": `https://www.aishin2484.jp/${jsonS}/`,
+    "inLanguage": "ja",
+    "publisher": {
+        "@type": "Organization",
+        "name": "愛心ペットセレモニー埼玉"
+    },
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
+                "item": "https://www.aishin2484.jp/"
             },
-            "nextItem":"https://www.aishin2484.jp/kawagoe/#listItem"
-          },
-          {
-            "@type":"ListItem",
-            "@id":"https://www.aishin2484.jp/kawagoe/#listItem",
-            "position":2,
-            "item":{
-              "@type":"WebPage",
-              "@id":"https://www.aishin2484.jp/kawagoe/",
-              "name":"ペット火葬川越市｜【公式】愛心ペットセレモニー埼玉",
-              "description":"川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。",
-              "url":"https://www.aishin2484.jp/kawagoe/"
-            },
-            "previousItem":"https://www.aishin2484.jp/#listItem"
-          }
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": `${jsonN}`,
+                "item": `https://www.aishin2484.jp/${jsonS}/`
+            }
         ]
-      },
-      {
-        "@type":"Person",
-        "@id":"https://www.aishin2484.jp/kawagoe/#person"
-      },
-      {
-        "@type":"WebPage",
-        "@id":"https://www.aishin2484.jp/kawagoe/#webpage",
-        "url":"https://www.aishin2484.jp/kawagoe/",
-        "name":"ペット火葬川越市｜【公式】愛心ペットセレモニー埼玉",
-        "description":"川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。",
-        "inLanguage":"ja",
-        "isPartOf":{
-          "@id":"https://www.aishin2484.jp/kawagoe/#website"
-        },
-        "breadcrumb":{
-          "@id":"https://www.aishin2484.jp/kawagoe/#breadcrumblist"
-        },
-        "datePublished":"2022-12-19T01:06:53+09:00",
-        "dateModified":"2023-01-05T3:00:07+09:00"
-      },
-      {
-        "@type":"WebSite",
-        "@id":"https://www.aishin2484.jp/kawagoe/#website",
-        "url":"https://www.aishin2484.jp/kawagoe/",
-        "name":"ペット火葬川越市｜【公式】愛心ペットセレモニー埼玉",
-        "description":"川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。",
-        "inLanguage":"ja",
-        "publisher":{
-          "@id":"https://www.aishin2484.jp/kawagoe/#person"
-        }
-      }
-    ]
-  }
-  
-  export const Head = () => (
+    },
+    "datePublished": "2022-12-19T01:06:53+09:00",
+    "dateModified": "2023-03-18T3:00:07+09:00"
+}
+
+export const Head = () => (
     <>
-        <Seo
+    <Seo
         title2="ペット火葬川越市｜【公式】愛心ペットセレモニー埼玉"
         description="川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。"
-        />
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+    />
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
     </>
   )

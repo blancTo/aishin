@@ -268,80 +268,47 @@ export default function sayama() {
   )
 }
 
+const jsonN = "ペット火葬狭山市｜【公式】愛心ペットセレモニー埼玉",
+jsonS = "sayama",
+jsonD = "狭山市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。";
+
 const jsonLd = {
-  "@context":"https://schema.org",
-  "@graph":[
-    {
-      "@type":"BreadcrumbList",
-      "@id":"https://www.aishin2484.jp/sayama/#breadcrumblist",
-      "itemListElement":[
-        {
-          "@type":"ListItem",
-          "@id":"https://www.aishin2484.jp/#listItem",
-          "position":1,
-          "item":{
-            "@type":"WebPage",
-            "@id":"https://www.aishin2484.jp/",
-            "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
-            "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-            "url":"https://www.aishin2484.jp/"
-          },
-          "nextItem":"https://www.aishin2484.jp/sayama/#listItem"
-        },
-        {
-          "@type":"ListItem",
-          "@id":"https://www.aishin2484.jp/sayama/#listItem",
-          "position":2,
-          "item":{
-            "@type":"WebPage",
-            "@id":"https://www.aishin2484.jp/sayama/",
-            "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜狭山市にお住まいの方へ",
-            "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の狭山市にお住まいの方へ。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
-            "url":"https://www.aishin2484.jp/sayama/"
-          },
-          "previousItem":"https://www.aishin2484.jp/#listItem"
-        }
-      ]
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": `${jsonN}`,
+    "description": `${jsonD}`,
+    "url": `https://www.aishin2484.jp/${jsonS}/`,
+    "inLanguage": "ja",
+    "publisher": {
+        "@type": "Organization",
+        "name": "愛心ペットセレモニー埼玉"
     },
-    {
-      "@type":"Person",
-      "@id":"https://www.aishin2484.jp/sayama/#person"
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
+                "item": "https://www.aishin2484.jp/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": `${jsonN}`,
+                "item": `https://www.aishin2484.jp/${jsonS}/`
+            }
+        ]
     },
-    {
-      "@type":"WebPage",
-      "@id":"https://www.aishin2484.jp/sayama/#webpage",
-      "url":"https://www.aishin2484.jp/sayama/",
-      "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜狭山市にお住まいの方へ",
-      "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の狭山市にお住まいの方へ。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-      "inLanguage":"ja",
-      "isPartOf":{
-        "@id":"https://www.aishin2484.jp/sayama/#website"
-      },
-      "breadcrumb":{
-        "@id":"https://www.aishin2484.jp/sayama/#breadcrumblist"
-      },
-      "datePublished":"2022-12-19T01:06:53+09:00",
-      "dateModified":"2023-01-05T3:00:07+09:00"
-    },
-    {
-      "@type":"WebSite",
-      "@id":"https://www.aishin2484.jp/sayama/#website",
-      "url":"https://www.aishin2484.jp/sayama/",
-      "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜狭山市にお住まいの方へ",
-      "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の狭山市にお住まいの方へ。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-      "inLanguage":"ja",
-      "publisher":{
-        "@id":"https://www.aishin2484.jp/sayama/#person"
-      }
-    }
-  ]
+    "datePublished": "2022-12-19T01:06:53+09:00",
+    "dateModified": "2023-03-18T3:00:07+09:00"
 }
 
 export const Head = () => (
   <>
     <Seo
-      title={pagemeta.subTitle + '｜埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉'}
-      description="狭山市にお住まいの方へ、ペット火葬について愛心ペットセレモニーからのご提案です。"
+      title2={jsonN}
+      description={jsonD}
     />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
