@@ -44,7 +44,7 @@ export default function kawagoe() {
                 </div>
 
                 <div className="headline">
-                    <h2>ペット火葬は大きく分けて３つのプラン</h2>
+                    <h2>川越市のペット火葬は大きく分けて３つのプラン</h2>
                 </div>
 
                 <div className="table clearfix">
@@ -68,13 +68,13 @@ export default function kawagoe() {
                     </div>
                 </div>
 
-                <h3>料金表</h3>
+                <h3>川越市のペット火葬 料金表</h3>
 
                 <table>
                     <caption>斎場火葬料金</caption>
                     <tbody>
                     <tr>
-                        <td colSpan={2} />
+                        <td colSpan="2">&nbsp;</td>
                         <th className="red">立会い火葬<br />（お持込の場合）</th>
                         <th className="red">個別一任火葬<br />「24ｈ返骨」</th>
                         <th className="red">個別一任火葬<br />「48ｈ返骨」</th>
@@ -87,7 +87,7 @@ export default function kawagoe() {
                         <td>17,000 円<br />税込18,700 円</td>
                     </tr>
                     <tr>
-                        <th rowSpan={2}>猫・小型犬・うさぎ　など</th>
+                        <th rowSpan="2">猫・小型犬・うさぎ　など</th>
                         <td className="green">～3kg</td>
                         <td>23,000 円<br />税込25,300 円</td>
                         <td>23,000 円<br />税込25,300 円</td>
@@ -100,7 +100,7 @@ export default function kawagoe() {
                         <td>22,000 円<br />税込24,200 円</td>
                     </tr>
                     <tr>
-                        <th rowSpan={2}>シュナウザー・パグ・中型犬など</th>
+                        <th rowSpan="2">シュナウザー・パグ・中型犬など</th>
                         <td className="green">～7kg</td>
                         <td>27,000 円<br />税込29,700 円</td>
                         <td>27,000 円<br />税込29,700 円</td>
@@ -113,7 +113,7 @@ export default function kawagoe() {
                         <td>26,000 円<br />税込28,600 円</td>
                     </tr>
                     <tr>
-                        <th rowSpan={2}>柴犬・ビーグル・コーギーなど</th>
+                        <th rowSpan="2">柴犬・ビーグル・コーギーなど</th>
                         <td className="green">～12kg</td>
                         <td>31,000 円<br />税込34,100 円</td>
                         <td>31,000 円<br />税込34,100 円</td>
@@ -126,7 +126,7 @@ export default function kawagoe() {
                         <td>30,000 円<br />税込33,000 円</td>
                     </tr>
                     <tr>
-                        <th rowSpan={6}>ボーダーコリー・ゴールデンレトリバーなど</th>
+                        <th rowSpan="6">ボーダーコリー・ゴールデンレトリバーなど</th>
                         <td className="green">～17kg</td>
                         <td>35,000 円<br />税込38,500 円</td>
                         <td>35,000 円<br />税込38,500 円</td>
@@ -164,8 +164,8 @@ export default function kawagoe() {
                     </tr>
                     <tr>
                         <th className="text1">※料金はペットの種類ではなく、ペットの体重で決まります。</th>
-                        <th className="text1" colSpan={2}>ペットさんのお迎え（10ｋｍ圏内まで）の場合、火葬料金に3,000円が加算されます。</th>
-                        <th className="text1" colSpan={2}>※一任火葬でお持込の方、2千円お引きします 。</th>
+                        <th className="text1" colSpan="2">ペットさんのお迎え（10ｋｍ圏内まで）の場合、火葬料金に3,000円が加算されます。</th>
+                        <th className="text1" colSpan="2">※一任火葬でお持込の方、2千円お引きします 。</th>
                     </tr>
                     </tbody>
                 </table>
@@ -174,11 +174,11 @@ export default function kawagoe() {
                     <tbody>
                         <tr>
                             <td />
-                            <th colSpan={2} className="red">個別火葬（納骨含）</th>
-                            <th colSpan={2} className="red">合同火葬（納骨含）</th>
+                            <th colSpan="2" className="red">個別火葬（納骨含）</th>
+                            <th colSpan="2" className="red">合同火葬（納骨含）</th>
                         </tr>
                         <tr>
-                            <th rowSpan={3}>猫・小型犬・うさぎ など</th>
+                            <th rowSpan="3">猫・小型犬・うさぎ など</th>
                             <td className="green">～500g</td>
                             <td>16,000 円<br />税込17,600 円</td>
                             <td className="green">～1kg</td>
@@ -197,61 +197,61 @@ export default function kawagoe() {
                             <td>17,000 円<br />税込18,700 円</td>
                         </tr>
                         <tr>
-                            <th rowSpan={2}>シュナウザー・パグ・中型犬など</th>
+                            <th rowSpan="2">シュナウザー・パグ・中型犬など</th>
                             <td className="green">～7kg</td>
                             <td>23,000 円<br />税込25,300 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td className="green">～10kg</td>
                             <td>25,000 円<br />税込27,500 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
-                            <th rowSpan={2}>柴犬・ビーグル・コーギーなど</th>
+                            <th rowSpan="2">柴犬・ビーグル・コーギーなど</th>
                             <td className="green">～12kg</td>
                             <td>27,000 円<br />税込29,700 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td className="green">～15kg</td>
                             <td>29,000 円<br />税込31,900 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
-                            <th rowSpan={6}>ボーダーコリー・ゴールデンレトリバーなど</th>
+                            <th rowSpan="6">ボーダーコリー・ゴールデンレトリバーなど</th>
                             <td className="green">～17kg</td>
                             <td>31,000 円<br />税込34,100 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td className="green">～20kg</td>
                             <td>33,000 円<br />税込36,300 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td className="green">～22kg</td>
                             <td>35,000 円<br />税込38,500 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td className="green">～25kg</td>
                             <td>37,000 円<br />税込40,700 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td className="green">～27kg</td>
                             <td>39,000 円<br />税込42,900 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td className="green">～30kg</td>
                             <td>41,000 円<br />税込45,100 円</td>
-                            <td colSpan={2} />
+                            <td colSpan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <th className="text1">※料金は、ペットの 種類ではなく、ペットの体重で決まります。</th>
-                            <th className="text1" colSpan={4} />
+                            <th className="text1" colSpan="4">&nbsp;</th>
                         </tr>
                     </tbody>
                 </table>

@@ -8,7 +8,7 @@ const Nav = () => {
       <section id="navi">      
             
             <nav>
-              <p id="sp-menu" className="sp"><label className="open" for="pop-up"><img src="/images/nav/menu.png" width={100} alt="メニュー開閉ボタン" /></label></p>
+              <p id="sp-menu" className="sp"><label className="open" htmlFor="pop-up"><img src="/images/nav/menu.png" width={100} alt="メニュー開閉ボタン" /></label></p>
               <input type="checkbox" id="pop-up" />
               <div className="overlay">
               <div class="window">
@@ -35,7 +35,7 @@ const Nav = () => {
                     <span><img src="/images/nav/55.png" alt="埼玉のペット葬儀・火葬「愛心ペットセレモニー」のアクセス情報" /></span>アクセス</Link>
                 </li>
                 <li className="sp" id="close">
-                    <img src="/images/nav/0.png" width={30} alt="メニュー開閉ボタン" /><label className="close" for="pop-up">閉じる</label>
+                    <img src="/images/nav/0.png" width={30} alt="メニュー開閉ボタン" /><label className="close" htmlFor="pop-up">閉じる</label>
                 </li>                
               </ul>
               
