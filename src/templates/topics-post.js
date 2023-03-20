@@ -17,7 +17,7 @@ const siteurl = "https://www.aishin2484.jp";
 const TopicsPost = ({data}) => {
   return (
     <>
-      <Seo title={data.microcmsTopics.title + '｜トピックス｜埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉'} />
+      <Seo title={data.microcmsTopics.title + '｜トピックス｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】'} />
 
       <Header />
 

@@ -116,7 +116,7 @@ const jsonLd = {
           "item":{
             "@type":"WebPage",
             "@id":"https://www.aishin2484.jp/",
-            "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
+            "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
             "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
             "url":"https://www.aishin2484.jp/"
           },
@@ -129,7 +129,7 @@ const jsonLd = {
           "item":{
             "@type":"WebPage",
             "@id":"https://www.aishin2484.jp/company-profile/",
-            "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜会社概要",
+            "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】｜会社概要",
             "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の会社概要。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
             "url":"https://www.aishin2484.jp/company-profile/"
           },
@@ -145,7 +145,7 @@ const jsonLd = {
       "@type":"WebPage",
       "@id":"https://www.aishin2484.jp/company-profile/#webpage",
       "url":"https://www.aishin2484.jp/company-profile/",
-      "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜会社概要",
+      "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】｜会社概要",
       "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の会社概要。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
       "inLanguage":"ja",
       "isPartOf":{
@@ -161,7 +161,7 @@ const jsonLd = {
       "@type":"WebSite",
       "@id":"https://www.aishin2484.jp/company-profile/#website",
       "url":"https://www.aishin2484.jp/company-profile/",
-      "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜会社概要",
+      "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】｜会社概要",
       "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の会社概要。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
       "inLanguage":"ja",
       "publisher":{

@@ -272,8 +272,8 @@ export default function Home({data}) {
   )
 }
 
-const jsonN = "愛心ペットセレモニー埼玉",
-jsonD = "埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）";
+const jsonN = "埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
+jsonD = "埼玉のペット火葬・葬儀のことなら 愛心ペットセレモニー埼玉 にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）";
 
 const jsonLd = {
   "@context":"https://schema.org",
@@ -286,12 +286,12 @@ const jsonLd = {
       "description":`${jsonD}`,
       "inLanguage":"ja",
       "publisher":{
-        "@id":"https://www.aishin2484.jp/#Organization"
+        "@id":"https://www.aishin2484.jp/#organization"
       }
     },
     {
       "@type": "Organization",
-      "@id":"https://www.aishin2484.jp/#Organization",
+      "@id":"https://www.aishin2484.jp/#organization",
       "name":`${jsonN}`,
       "description":`${jsonD}`,
       "url":"https://www.aishin2484.jp/",
@@ -312,7 +312,7 @@ const jsonLd = {
     },
     {
       "@type":"WebPage",
-      "@id":"https://www.aishin2484.jp/#WebPage",
+      "@id":"https://www.aishin2484.jp/#webPage",
       "url":"https://www.aishin2484.jp/",
       "name":`${jsonN}`,
       "description":`${jsonD}`,
@@ -327,7 +327,7 @@ const jsonLd = {
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
+          "name": "埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
           "item": "https://www.aishin2484.jp/"
         }
       ]

@@ -261,7 +261,7 @@ export default function kawagoe() {
     )
 }
 
-const jsonN = "ペット火葬川越市｜【公式】愛心ペットセレモニー埼玉",
+const jsonN = "川越市ペット火葬｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
 jsonS = "kawagoe",
 jsonD = "川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。";
 
@@ -274,7 +274,7 @@ const jsonLd = {
     "inLanguage": "ja",
     "publisher": {
         "@type": "Organization",
-        "name": "愛心ペットセレモニー埼玉"
+        "name": "埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】"
     },
     "breadcrumb": {
         "@type": "BreadcrumbList",
@@ -282,7 +282,7 @@ const jsonLd = {
             {
                 "@type": "ListItem",
                 "position": 1,
-                "name": "埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
+                "name": "埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
                 "item": "https://www.aishin2484.jp/"
             },
             {
@@ -300,7 +300,7 @@ const jsonLd = {
 export const Head = () => (
     <>
     <Seo
-        title2="ペット火葬川越市｜【公式】愛心ペットセレモニー埼玉"
+        title2="川越市ペット火葬｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】"
         description="川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。"
     />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
