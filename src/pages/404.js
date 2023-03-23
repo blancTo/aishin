@@ -83,6 +83,7 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+    <body id="pagetop" />
     <Seo
       title2="ページが見つかりません｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】"
       description="お探しのページは、移動または削除された可能性があります。"

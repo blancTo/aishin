@@ -14,10 +14,9 @@ import { faChevronUp } from "@fortawesome/free-solid-svg-icons"
 
 const siteurl = "https://www.aishin2484.jp";
 
-const TopicsPost = ({data}) => {
+export default function TopicsPost({data}) {
   return (
     <>
-      <Seo title={data.microcmsTopics.title + '｜トピックス｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】'} />
 
       <Header />
 
@@ -88,7 +87,13 @@ const TopicsPost = ({data}) => {
   )
 }
 
-export default TopicsPost
+
+export const Head = ({data}) => (
+  <>
+    <body id="pagetop" />
+    <Seo title={data.microcmsTopics.title + '｜トピックス｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】'} />    
+  </>
+)
 
 export const query = graphql`
 query ($id: String) {

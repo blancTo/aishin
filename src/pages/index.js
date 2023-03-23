@@ -345,6 +345,7 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
     <Seo />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>    
   </>

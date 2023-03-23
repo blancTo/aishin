@@ -113,6 +113,7 @@ const jsonLd = {
   
   export const Head = () => (
     <>
+      <body id="pagetop" />
       <Seo
         title={pagemeta.subTitle + ' | 埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉'}
         description="お問い合わせページです。ご不明な点がありましたら、ご遠慮なくご相談ください。"

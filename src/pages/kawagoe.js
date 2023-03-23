@@ -255,6 +255,24 @@ export default function kawagoe() {
                         </tr>
                     </tbody>
                 </table>
+
+                <h2>川越市の保健所のご案内</h2>
+
+                <div className='hokenjyo_wrap'>
+                    <div className='hokenjyo_l'>
+                        <h3>川越市の届け出・お問い合わせ先</h3>
+                        <p>保健医療部　食品・環境衛生課　環境衛生担当（川越市保健所内） 〒350-1104　川越市小ケ谷817番地1 電話番号：049-227-5103（直通） ファクス：049-224-2261</p>
+                    </div>
+                    <div className='hokenjyo_r'>
+                        <h3>川越市保健所へのアクセス</h3>
+                        <div className='gmap'>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3230.835305482731!2d139.45675431526553!3d35.92653108013783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018da0841868eaf%3A0xb478fde9b5aa1722!2z5bed6LaK5biC5L-d5YGl5omAIOS_neWBpee3j-WLmeiqsg!5e0!3m2!1sja!2sjp!4v1679594228090!5m2!1sja!2sjp" width={800} height={600} style={{border: 0}} title="川越市保健所" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </Layout>
         </>
@@ -299,6 +317,7 @@ const jsonLd = {
 
 export const Head = () => (
     <>
+    <body id="pagetop" />
     <Seo
         title2="川越市ペット火葬｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】"
         description="川越市でペット火葬なら愛心ペットセレモニー埼玉にお任せください。犬・猫はもちろん、うさぎや小鳥の火葬も承っております。手厚いサポートでペットの最後までのお世話をいたします。お気軽にお問い合わせください。"

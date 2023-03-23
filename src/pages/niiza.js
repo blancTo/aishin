@@ -291,6 +291,7 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+    <body id="pagetop" />
     <Seo
       title2={jsonN}
       description={jsonD}

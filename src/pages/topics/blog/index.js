@@ -173,6 +173,7 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+    <body id="pagetop" />
     <Seo
       title={pagemeta.subTitle + '｜埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】'}
       description="ブログの記事一覧ページです"

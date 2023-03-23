@@ -1136,3 +1136,24 @@ div.map-canvas{
     margin-left: auto;
     max-width: 54px;
 }
+
+.hokenjyo_wrap { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.hokenjyo_l,.hokenjyo_r { width: 49%; }
+
+@media screen and (max-width: 765px) {
+	.hokenjyo_l,.hokenjyo_r { width: 100%; }
+}
+
+.gmap {
+	width: 100%;
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.gmap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

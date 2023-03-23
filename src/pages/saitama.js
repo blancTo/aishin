@@ -50,7 +50,7 @@ export default function saitama() {
               </div>
 
               <div className="headline">
-                <h2>ペット火葬は大きく分けて３つのプラン</h2>
+                <h2>さいたま市のペット火葬は大きく分けて３つのプラン</h2>
               </div>
 
               <div className="table clearfix">
@@ -74,7 +74,7 @@ export default function saitama() {
                 </div>
               </div>
 
-              <h3>料金表</h3>
+              <h3>さいたま市のペット火葬 料金表</h3>
 
               <table>
                 <caption>斎場火葬料金</caption>
@@ -263,6 +263,21 @@ export default function saitama() {
                 </tbody>
               </table>
 
+              <h2>さいたま市の保健所のご案内</h2>
+
+              <div className='hokenjyo_wrap'>
+                  <div className='hokenjyo_l'>
+                      <h3>さいたま市の届け出・お問い合わせ先</h3>
+                      <p>保健福祉局 保健所 保健総務課 住所：〒338-0013 埼玉県さいたま市中央区鈴谷７丁目５−１２ 電話：048-840-2205 FAX：048-840-2228</p>
+                  </div>
+                  <div className='hokenjyo_r'>
+                    <h3>さいたま市保健所へのアクセス</h3>
+                    <div className='gmap'>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12931.97622730892!2d139.6242213!3d35.8736625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c19125568da5%3A0xeb6444b074962673!2z44GV44GE44Gf44G-5biC5L-d5YGl5omA!5e0!3m2!1sja!2sjp!4v1679597474636!5m2!1sja!2sjp" width={800} height={600} style={{border: 0}} title="さいたま市保健所" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                    </div>
+                  </div>
+              </div>
+
             </div>
         </Layout>
     </>
@@ -307,6 +322,7 @@ const jsonLd = {
   
 export const Head = () => (
   <>
+    <body id="pagetop" />
     <Seo
         title2={jsonN}
         description={jsonD}

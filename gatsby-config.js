@@ -87,7 +87,12 @@ module.exports = {
       options: {
         host: `https://www.aishin2484.jp`,
         sitemap: `https://www.aishin2484.jp/sitemap-0.xml`,
-        policy: [{ userAgent: `*`, allow: `/` }],
+        policy: [
+          {
+            userAgent: `*`,
+            disallow:['/kawagoe','/saitama']
+          }
+        ],
       },
     },
     
