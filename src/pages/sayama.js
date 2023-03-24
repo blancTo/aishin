@@ -57,7 +57,7 @@ export default function sayama() {
           </div>
           
           <div className="headline">
-            <h2>ペット火葬は大きく分けて３つのプラン</h2>
+            <h2>狭山市のペット火葬は大きく分けて３つのプラン</h2>
           </div>
           
           <div className="table clearfix">
@@ -81,7 +81,7 @@ export default function sayama() {
             </div>
           </div>
 
-          <h3>料金表</h3>
+          <h3>狭山市のペット火葬 料金表</h3>
           
           <table>
             <caption>斎場火葬料金</caption>
@@ -269,6 +269,22 @@ export default function sayama() {
               </tr>
             </tbody>
           </table>
+
+          <h2>狭山市の保健所のご案内</h2>
+
+          <div className='hokenjyo_wrap'>
+            <div className='hokenjyo_l'>
+              <h3>狭山市の届け出・お問い合わせ先</h3>
+              <p>環境経済部 環境課 〒350-1380 狭山市入間川1丁目23番5号 電話：04-2953-1111 FAX：04-2954-6262</p>
+            </div>
+            <div className='hokenjyo_r'>
+              <h3>狭山市保健所へのアクセス</h3>
+              <div className='gmap'>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d103482.82081251558!2d139.412215!3d35.852972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018d92238ed302f%3A0x4864655911a5b9a5!2z54ut5bGx5biC5b255omA!5e0!3m2!1sja!2sus!4v1679673524997!5m2!1sja!2sus" width={800} height={600} style={{border: 0}} title="狭山市保健所" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+              </div>
+            </div>
+          </div>
+
         </div>
       </Layout>
     </>

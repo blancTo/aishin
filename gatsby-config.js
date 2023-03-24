@@ -80,8 +80,14 @@ module.exports = {
       options: {
         siteUrl: `https://www.aishin2484.jp/`,
       },
+    },    
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: '/',
+        excludes: ['/kawagoe','/saitama']
+      }
     },
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
@@ -93,6 +99,7 @@ module.exports = {
             disallow:['/kawagoe','/saitama']
           }
         ],
+        
       },
     },
     
