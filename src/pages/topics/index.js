@@ -52,10 +52,10 @@ const topics = ({ data }) => {
                     </p>
                     <div class="rack">
                       <h1 class="arrange">
-                          <a href={'/topics/' + node.category.slug + '/' + node.topicsId}>{node.title}</a>
+                          <a href={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>{node.title}</a>
                       </h1>
                       <p class="preface">
-                          <a href={'/topics/' + node.category.slug + '/' + node.topicsId}>
+                          <a href={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>
                             {node.excerpt}
                           </a>
                       </p>

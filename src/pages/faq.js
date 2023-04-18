@@ -27,7 +27,7 @@ export default function faq() {
             <div className="blog">
                 <div className="strapline">
                 <h3>Q&amp;A</h3>
-                </div>{/*.strapline-*/}
+                </div>
                 <div className="question">
                 <h4>遺体を引き取りに来る間、何を用意してどう対処すればよいですか？</h4>
                 </div>

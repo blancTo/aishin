@@ -16,8 +16,8 @@ const Footer = () => {
                 </dl>
                 <nav>
                   <ul className="float-box">
-                    <li><Link className="hover" href="/company-profile">会社概要</Link></li>
-                    <li><Link className="hover" href="/access">アクセスMAP</Link></li>
+                    <li><Link className="hover" href="/company-profile/">会社概要</Link></li>
+                    <li><Link className="hover" href="/access/">アクセスMAP</Link></li>
                   </ul>
                 </nav>
                 <dl>

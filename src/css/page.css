@@ -1140,6 +1140,9 @@ div.map-canvas{
 .hokenjyo_wrap { display: flex; flex-wrap: wrap; justify-content: space-between; }
 .hokenjyo_l,.hokenjyo_r { width: 49%; }
 
+.area_list_link { display: flex; flex-wrap: wrap; }
+.area_list_link li { padding-right: 10px; }
+
 @media screen and (max-width: 765px) {
 	.hokenjyo_l,.hokenjyo_r { width: 100%; }
 }

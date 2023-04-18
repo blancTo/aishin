@@ -36,9 +36,9 @@ export default function flowFuneral() {
           <h4>お電話にてご連絡ください。</h4>
           <p>ご都合の良い日時やプランなどを打ち合わせ致します。※お申し込み状況によりお客様のご希望にお応えできない場合もございますので予めご了承ください。</p>
           <ul>
-            <li><Link href="/service-area#mark1">&gt;&gt;対応サービスエリアはこちら</Link></li>
-            <li><Link href="/price-guide">&gt;&gt;料金一覧はこちら</Link></li>
-            <li><Link href="/guidance-business">&gt;&gt;業務内容はこちら</Link></li>
+            <li><Link href="/service-area/#mark1">&gt;&gt;対応サービスエリアはこちら</Link></li>
+            <li><Link href="/price-guide/">&gt;&gt;料金一覧はこちら</Link></li>
+            <li><Link href="/guidance-business/">&gt;&gt;業務内容はこちら</Link></li>
           </ul>
         </div>
         <h3 className="text2">STEP2</h3>
@@ -84,7 +84,7 @@ export default function flowFuneral() {
           <p className="text2"><em>ホームセレモニー</em></p>
           <p>愛するわが子といつまでも一緒にいてあげてください。共に暮らしてきたお家でセレモニーを行います。ご遺骨をメモリアルストーン（ホーム墓石）に納骨していだき供養していだきます。メモリアルストーンは、室内用と屋外用（お庭用など）をご用意させていただきましたので、 設置場所や設置条件に合わせたご提案をさせて頂きます。 </p>
           <ul>
-            <li><Link href="/guidance-business#mark2">&gt;&gt;ホームセレモニーの詳細はこちら</Link></li>
+            <li><Link href="/guidance-business/#mark2">&gt;&gt;ホームセレモニーの詳細はこちら</Link></li>
             <li className="text1">※このサービスはオプションとなります。</li>
           </ul>
           <img src="/images/sub/b01.jpg" alt="ホームセレモニーのイメージ" />

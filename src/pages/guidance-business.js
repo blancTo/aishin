@@ -29,7 +29,7 @@ export default function guidanceBusiness() {
             <section id="mark1">
             <h1 className="bottom2">斎場火葬</h1>
             <h3 className="text2">ご家族の皆さんで立会いが可能です。（待合室完備）</h3>
-            <p><Link href="/service-area#mark1">&gt;&gt;対応サービスエリアはこちら </Link></p>
+            <p><Link href="/service-area/#mark1">&gt;&gt;対応サービスエリアはこちら </Link></p>
             <div className="box top0">
                 <p className="top0"><img src="/images/sub/c01.jpg" alt="ペット火葬場" /></p>
                 <p>当施設（ペット火葬場）は、固定炉でのペット火葬を執り行っております。 猫ちゃん及び、小型犬～大型犬までお立会い火葬ができます。出張火葬車などは、住宅地での火葬が困難で、近隣住人とのトラブルの原因にもなります。お立会い火葬をご希望の場合、安心安全な施設でのご利用をおすすめ致します。</p>
@@ -52,12 +52,12 @@ export default function guidanceBusiness() {
                 <p>お電話にてご予約後、ご自宅までお迎えに上がります。 </p>
                 <p>斎場にて火葬いたします。</p>
                 <p>火葬終了後、慰霊塔へ納骨いたします。 （※ご遺骨の返骨はございません）</p>
-                <p><Link href="/service-area#mark2">&gt;&gt;お引取り対応サービスエリア　</Link></p>
+                <p><Link href="/service-area/#mark2">&gt;&gt;お引取り対応サービスエリア　</Link></p>
                 </section>
                 <section className="box2">
                 <h1>お迎えサービス</h1>
                 <p>諸事情によりお持込ができないお客様のためにお迎えサービス（有料）も行なっております。</p>
-                <p><Link href="/service-area#mark1">&gt;&gt;対応サービスエリアはこちら</Link></p>
+                <p><Link href="/service-area/#mark1">&gt;&gt;対応サービスエリアはこちら</Link></p>
                 </section>
                 <div className="pickup">
                 <h4>ペット火葬後のご返骨のメリット</h4>
@@ -68,9 +68,9 @@ export default function guidanceBusiness() {
                     ペット霊園や散骨など、一度納めてしまうと手元に戻すことができないため、一度ご自宅へ連れて帰ってあげて、どのように遺骨を納め供養してあげれば良いかご家族の皆様でご相談されることをお勧めしております。<br /><br />
                     また、愛心ペットセレモニーでは、当施設にてご火葬いただいたお客様につきましては、いつでも期限なしでペット慰霊碑へのご納骨を受け付けておりますので、ご安心いただけます。
                 </p>
-                <p><Link href="/goods"><img src="/images/sub/c05.png" alt="ペットメモリアルグッズ" /></Link></p>
+                <p><Link href="/goods/"><img src="/images/sub/c05.png" alt="ペットメモリアルグッズ" /></Link></p>
                 <p>いつまでも一緒にいたいという気持ちをサポートするためのメモリアルグッズもご用意しております。<br />
-                    <Link href="/goods">&gt;&gt;メモリアルグッズのご紹介はこちら</Link></p>
+                    <Link href="/goods/">&gt;&gt;メモリアルグッズのご紹介はこちら</Link></p>
                 </div>
             </div>
             </section>

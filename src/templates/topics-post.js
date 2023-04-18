@@ -46,7 +46,7 @@ export default function TopicsPost({data}) {
               <meta itemprop="position" content="3" />
             </li>
             <li>
-              <a href={ siteurl + '/topics/' + data.microcmsTopics.category.slug + '/' + data.microcmsTopics.topicsId } itemprop="item">
+              <a href={ siteurl + '/topics/' + data.microcmsTopics.category.slug + '/' + data.microcmsTopics.topicsId + '/' } itemprop="item">
                 <span>{data.microcmsTopics.title}</span>
               </a>
               <meta itemprop="position" content="4" />
@@ -79,6 +79,11 @@ export default function TopicsPost({data}) {
               </div>
             </div>
           </div>
+          <ul className="area_list_link">
+            <li><Link to="/kawagoe/">ペット 火葬 川越市</Link></li>
+            <li><Link to="/tokorozawa/">ペット 火葬 所沢市</Link></li>
+            <li><Link to="/saitama/">ペット 火葬 さいたま市</Link></li>
+          </ul>
           <p className="center"><Link to={'/topics/' + data.microcmsTopics.category.slug + "/"} className="bt01">一覧へ戻る</Link></p>
       </section>
       

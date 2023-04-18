@@ -64,10 +64,10 @@ export default function Home({data}) {
             <br />ペット火葬は、犬さん・猫さん・うさぎさんはもちろん、小さな小鳥さんも対応可能です。※大型犬は２５ｋｇまで。</p>
           <section id="service-area">
             <h3>ペット火葬・葬儀サービス提供エリア</h3>
-            <p>埼玉県（<a href="/kawagoe">川越市</a>・富士見市・三芳町・<a href="/niiza">新座市</a>・<a href="/shiki">志木市</a>・<a href="/asaka">朝霞市</a>・<a href="/tokorozawa">所沢市</a>・<a href="/sayama">狭山市</a>・<a href="/saitama">さいたま市</a>・入間市・ふじみ野市） ・ 東京都（清瀬市）
+            <p>埼玉県（<a href="/kawagoe/">川越市</a>・富士見市・三芳町・<a href="/niiza/">新座市</a>・<a href="/shiki/">志木市</a>・<a href="/asaka/">朝霞市</a>・<a href="/tokorozawa/">所沢市</a>・<a href="/sayama/">狭山市</a>・<a href="/saitama/">さいたま市</a>・入間市・ふじみ野市） ・ 東京都（清瀬市）
               <br />※立会いペット火葬のご送迎には対応しておりません。</p>
-            <div className="detail-btn fee"><a className="hover" href="/price-guide">料金の詳細はこちら</a></div>
-            <div className="detail-btn area"><a className="hover" href="/service-area">対応エリア詳細はこちら</a></div>
+            <div className="detail-btn fee"><a className="hover" href="/price-guide/">料金の詳細はこちら</a></div>
+            <div className="detail-btn area"><a className="hover" href="/service-area/">対応エリア詳細はこちら</a></div>
           </section>
         </div>
       </section>
@@ -113,7 +113,7 @@ export default function Home({data}) {
                   <dd>不定休・電話受付7:00～23:00&nbsp;&nbsp;※接客中、一時的に電話に出れない場合がございます。</dd>
                 </dl>
                 <div id="free-consultation">
-                  <a className="hover" href="/contactus">お問い合わせは<br />こちら<img src="/images/arrow1.png" alt="お問い合わせ矢印" /></a>
+                  <a className="hover" href="/contactus/">お問い合わせは<br />こちら<img src="/images/arrow1.png" alt="お問い合わせ矢印" /></a>
                 </div>
               </section>
               <section id="bikke">
@@ -194,7 +194,7 @@ export default function Home({data}) {
               <div className="txt">
                 <h2 className="midasi3"><span><img src="/images/icon/5.png" alt="ドライアイス店の紹介／雪のアイコン" /></span>ドライアイス店のご紹介</h2>
                 <p>大事なペットさんをきれいな状態で送り出してあげるために必要なドライアイス。こちらではドライアイスを購入できるお店をいくつかご紹介したいと思います。</p>
-                <div className="detail-btn area"><a className="hover" href="/dryice">詳細はこちら</a></div>
+                <div className="detail-btn area"><a className="hover" href="/dryice/">詳細はこちら</a></div>
               </div>
             </div>
           </div>		
@@ -213,7 +213,7 @@ export default function Home({data}) {
             
             <dl className='news'>
               <dt>{node.date}</dt>
-              <dd><a href={'topics/' + node.category.slug + '/' + node.topicsId}>{node.title}</a><br />
+              <dd><a href={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>{node.title}</a><br />
               {node.excerpt}...</dd>
             </dl>
           
@@ -251,7 +251,7 @@ export default function Home({data}) {
               ばい塵濃度は、埼玉県の規制基準の約34分の1、塩化水素濃度は50分の1と、もはや測定の意義すら考えさせられるほど埼玉県の環境基準を大幅にクリアしています。<br />
               測定費用は高額にかかるのですが、定期的な点検や安全に火葬炉を稼動させるための維持管理の一環でもありますし、何よりもご利用いただくお客様から安心してお任せいただけるようしっかりと条例を遵守し測定しておりますので、どうぞ安心してご利用下さい。
             </p>
-            <a href="/images/investigation2022-11.pdf" target="_blank" rel="noopener noreferrer">最新測定調査証 （PDF）</a>
+            <a href="/images/investigation2023-03.pdf" target="_blank" rel="noopener noreferrer">最新測定調査証 （PDF）</a>
           </div>
         </section>
         <aside id="links">

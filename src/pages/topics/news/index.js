@@ -53,10 +53,10 @@ const news = ({data}) => {
               </p>
               <div class="rack">
                 <h1 class="arrange">
-                  <Link to={'/topics/' + node.category.slug + '/' + node.topicsId}>{node.title}</Link>
+                  <Link to={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>{node.title}</Link>
                 </h1>
                 <p class="preface">
-                  <Link to={'/topics/' + node.category.slug + '/' + node.topicsId}>
+                  <Link to={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>
                     {node.excerpt}
                   </Link>
                 </p>

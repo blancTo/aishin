@@ -10,7 +10,7 @@ const Header = () => {
           <nav id="contact">
             <ul className="float-box">
               <li id="lets-from">
-                <Link className="hover" href="/contactus"><img src="/images/header/consultation.png" alt="無料相談はこちら" /></Link>
+                <Link className="hover" href="/contactus/"><img src="/images/header/consultation.png" alt="無料相談はこちら" /></Link>
               </li>
               <li id="lets-tel" className="pc">
                 <img src="/images/header/tel-free.png" alt="埼玉でペット火葬・ペット葬儀場をお探しならフリーダイヤル：0120-36-2484まで" />

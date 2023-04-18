@@ -116,7 +116,7 @@ export default function priceGuide() {
               </tbody></table>
           </div>
           <h3 className="text2">粉骨サービス（ 火葬当日のみ 3,000円 ）にて承ります。</h3>
-          <p><a href="/service-area#mark1">&gt;&gt; お迎えサービスエリアと費用はこちら</a></p>
+          <p><a href="/service-area/#mark1">&gt;&gt; お迎えサービスエリアと費用はこちら</a></p>
           <ul>
             <li className="text1">※ご予約状況により、お受けできない場合もございます。</li>
             <li className="text1">※ペットの体型によっては火葬をお受けできない場合もございます。標準体型を大幅にオーバーしている場合は、ご予約前に一度ご相談下さい。</li>
@@ -205,7 +205,7 @@ export default function priceGuide() {
               </tbody></table>
           </div>
           <div>
-            <p><a href="/service-area#mark2">&gt;&gt; お迎えサービスエリアと費用はこちら</a></p>
+            <p><a href="/service-area/#mark2">&gt;&gt; お迎えサービスエリアと費用はこちら</a></p>
             <ul>
               <li className="text1">※ペットの体型によっては火葬をお受けできない場合もございます。標準体型を大幅にオーバーしている場合は、ご予約前に一度ご相談下さい。 </li>
             </ul>
