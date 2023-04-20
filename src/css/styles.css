@@ -694,26 +694,26 @@ footer #links ul li {
 @media (max-width: 768px) {
 	.eigyo-info { padding: 3%;}
 	.eigyo-info iframe {
-		width:100%; height: 652px!important; box-sizing: border-box;
+		width:100%; height: 300px!important; box-sizing: border-box;
 	}
 }
 
 @media (max-width: 480px) {
 	
 	.eigyo-info iframe {
-		width:100%; height: 750px!important; box-sizing: border-box;
+		width:100%; height: 427px!important; box-sizing: border-box;
 	}
 }
 
 @media (min-width: 1025px) {
 .eigyo-info iframe {
-	width:100%; height: 427px; box-sizing: border-box;
+	width:100%; height: 300px; box-sizing: border-box;
 }
 }
 
 iframe#cal {
     width: 100%;
-	height: 255px;
+	height: 300px;
 }
 
 
@@ -721,7 +721,7 @@ iframe#cal {
 @media (orientation: landscape) and (max-width: 667px) {
 	.eigyo-info { width: 100%; box-sizing: border-box; padding: 2%;}
 	.eigyo-info iframe {
-		width:100%; height: 572px!important; box-sizing: border-box;
+		width:100%; height: 300px!important; box-sizing: border-box;
 	}
 }
 
@@ -731,6 +731,6 @@ iframe#cal {
 	}
 	.eigyo-info iframe {
 		width: 100%;
-		height: 427px;
+		height: 300px;
 	}
 }
