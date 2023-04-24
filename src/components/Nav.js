@@ -11,27 +11,27 @@ const Nav = () => {
               <p id="sp-menu" className="sp"><label className="open" htmlFor="pop-up"><img src="/images/nav/menu.png" width={100} alt="メニュー開閉ボタン" /></label></p>
               <input type="checkbox" id="pop-up" />
               <div className="overlay">
-              <div class="window">
+              <div className="window">
               <ul className="float-box">
-                <li><Link className="hover" href="/price-guide/">
+                <li><Link to="/price-guide/" className="hover">
                     <span><img src="/images/nav/1.png" alt="埼玉のペット葬儀・火葬「愛心ペットセレモニー」の料金のご案内" /></span>料金のご案内</Link>
                 </li>
-                <li><Link className="hover" href="/flow-funeral/">
+                <li><Link to="/flow-funeral/" className="hover">
                     <span><img src="/images/nav/22.png" alt="埼玉のペット葬儀・火葬「愛心ペットセレモニー」の葬儀の流れ" /></span>葬儀の流れ</Link>
                 </li>
-                <li><Link className="hover" href="/guidance-business/">
+                <li><Link to="/guidance-business/" className="hover">
                     <span><img src="/images/nav/3.png" alt="埼玉のペット葬儀・火葬「愛心ペットセレモニー」の業務のご案内" /></span>業務のご案内</Link>
                 </li>
-                <li><Link className="hover" href="/service-area/">
+                <li><Link to="/service-area/" className="hover">
                     <span><img src="/images/nav/4.png" alt="埼玉のペット葬儀・火葬「愛心ペットセレモニー」のサービスエリア" /></span>サービスエリア</Link>
                 </li>
-                <li><Link className="hover" href="/goods/">
+                <li><Link to="/goods/" className="hover">
                     <span><img src="/images/nav/7.png" alt="埼玉のペット葬儀・火葬「愛心ペットセレモニー」の商品のご案内" /></span>商品のご案内</Link>
                 </li>
-                <li><Link className="hover" href="/faq/">
+                <li><Link to="/faq/" className="hover">
                     <span><img src="/images/nav/6.png" alt="よくあるご質問" /></span>よくあるご質問</Link>
                 </li>
-                <li><Link className="hover" href="/access/">
+                <li><Link to="/access/" className="hover">
                     <span><img src="/images/nav/55.png" alt="埼玉のペット葬儀・火葬「愛心ペットセレモニー」のアクセス情報" /></span>アクセス</Link>
                 </li>
                 <li className="sp" id="close">

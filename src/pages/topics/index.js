@@ -45,19 +45,19 @@ const topics = ({ data }) => {
               <h1 id="display-item">{pagemeta.subTitle}の記事一覧</h1>
             
                 {data.allMicrocmsTopics.edges.map(({ node }) => (
-                  <article class="list">
-                    <p class="date">
+                  <article className="list">
+                    <p className="date">
                         <Link to={node.category.slug}>{node.category.name}</Link>
-                        <span class="blobdate">{node.date}</span>
+                        <span className="blobdate">{node.date}</span>
                     </p>
-                    <div class="rack">
-                      <h1 class="arrange">
-                          <a href={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>{node.title}</a>
+                    <div className="rack">
+                      <h1 className="arrange">
+                          <Link to={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>{node.title}</Link>
                       </h1>
-                      <p class="preface">
-                          <a href={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>
+                      <p className="preface">
+                          <Link to={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>
                             {node.excerpt}
-                          </a>
+                          </Link>
                       </p>
                     </div>
                   </article>

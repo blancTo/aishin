@@ -3,10 +3,8 @@ import { graphql } from "gatsby"
 
 const notice = ({data}) => {
   return (
-    <>
-    
+    <>    
       <div>{data.microcmsNotice.txt}</div>
-     
     </>
   )
 }

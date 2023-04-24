@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { graphql } from 'gatsby'
+import { Link } from "gatsby"
 
 import { StaticImage } from "gatsby-plugin-image"
 import { AnchorLink } from "gatsby-plugin-anchor-links";
@@ -64,10 +65,10 @@ export default function Home({data}) {
             <br />ペット火葬は、犬さん・猫さん・うさぎさんはもちろん、小さな小鳥さんも対応可能です。※大型犬は２５ｋｇまで。</p>
           <section id="service-area">
             <h3>ペット火葬・葬儀サービス提供エリア</h3>
-            <p>埼玉県（<a href="/kawagoe/">川越市</a>・富士見市・三芳町・<a href="/niiza/">新座市</a>・<a href="/shiki/">志木市</a>・<a href="/asaka/">朝霞市</a>・<a href="/tokorozawa/">所沢市</a>・<a href="/sayama/">狭山市</a>・<a href="/saitama/">さいたま市</a>・入間市・ふじみ野市） ・ 東京都（清瀬市）
-              <br />※立会いペット火葬のご送迎には対応しておりません。</p>
-            <div className="detail-btn fee"><a className="hover" href="/price-guide/">料金の詳細はこちら</a></div>
-            <div className="detail-btn area"><a className="hover" href="/service-area/">対応エリア詳細はこちら</a></div>
+            <p>埼玉県（川越市・富士見市・三芳町・新座市・志木市・朝霞市・所沢市・狭山市・さいたま市・入間市・ふじみ野市） ・ 東京都（清瀬市）<br />
+            ※立会いペット火葬のご送迎には対応しておりません。</p>
+            <div className="detail-btn fee"><Link to="/price-guide/" className="hover">料金の詳細はこちら</Link></div>
+            <div className="detail-btn area"><Link to="/service-area/" className="hover">対応エリア詳細はこちら</Link></div>
           </section>
         </div>
       </section>
@@ -113,7 +114,7 @@ export default function Home({data}) {
                   <dd>不定休・電話受付7:00～23:00&nbsp;&nbsp;※接客中、一時的に電話に出れない場合がございます。</dd>
                 </dl>
                 <div id="free-consultation">
-                  <a className="hover" href="/contactus/">お問い合わせは<br />こちら<img src="/images/arrow1.png" alt="お問い合わせ矢印" /></a>
+                  <Link to="/contactus/" className="hover">お問い合わせは<br />こちら<img src="/images/arrow1.png" alt="お問い合わせ矢印" /></Link>
                 </div>
               </section>
               <section id="bikke">
@@ -134,7 +135,7 @@ export default function Home({data}) {
             <h5 className="midasi"><span><img src="/images/icon/2.png" alt="ペット火葬・葬儀サービス案内犬のアイコン" /></span>ペット火葬・葬儀サービスのご案内</h5>
             <div className="flex-box">
               <section className="service-pake">
-                <div className='service_img'><StaticImage src="../images/top/1.jpg" maxWidth={180} alt="ペット斎場火葬" /></div>
+                <div className='service_img'><StaticImage src="../images/top/1.jpg" width={180} alt="ペット斎場火葬" /></div>
                 <section>
                   <h2>ペット火葬・葬儀</h2>
                   <p>当施設（ペット火葬場）は、固定炉でのペット火葬を執り行っております。猫ちゃん及び、小型犬～大型犬までお立ち会いができます。</p>
@@ -146,7 +147,7 @@ export default function Home({data}) {
                 <section>
                   <h2>ホームセレモニー</h2>
                   <p>火葬後のご遺骨はどうなさっ ていますか？自宅向けのペット墓石を造りご供養されてはいかがでしょう。<br /><br /></p>
-                  <p><a className="hover" href="/guidance-business/#mark2">詳細はこちら</a></p>
+                  <p><Link to="/guidance-business/#mark2" className="hover">詳細はこちら</Link></p>
                 </section>
               </section>
               <section className="service-pake">
@@ -154,7 +155,7 @@ export default function Home({data}) {
                 <section>
                   <h2>納骨サービス</h2>
                   <p>斎場に併設されたペット霊園の慰霊塔に納骨致します。合同納骨となりますが、毎日丁寧な供養を行います。<br /><br /></p>
-                  <p><a className="hover" href="/price-guide/#mark2">詳細はこちら</a></p>
+                  <p><Link to="/price-guide/#mark2" className="hover">詳細はこちら</Link></p>
                 </section>
               </section>
               <section className="service-pake">
@@ -162,7 +163,7 @@ export default function Home({data}) {
                 <section>
                   <h2>粉骨サービス</h2>
                   <p>愛するわが子を海や山・・または自宅の庭へ散骨してあげたい。温もりを感じさせる形に遺したいという方々へのサービスです。</p>
-                  <p><a className="hover" href="/guidance-business/#mark4">詳細はこちら</a></p>
+                  <p><Link to="/guidance-business/#mark4" className="hover">詳細はこちら</Link></p>
                 </section>
               </section>
               <section className="service-pake">
@@ -170,7 +171,7 @@ export default function Home({data}) {
                 <section>
                   <h2>メモリアルジュエリー</h2>
                   <p>メモリアルジュエリーは、大切なパートナーのお遺骨を樹脂で特殊加工し永遠の形見としてお持ちいただくオンリーワンジュエリー。<br /><span style={{color: '#f07020', fontSize: '85%'}}>制作をしばらく間お休みいたします。</span></p>
-                  <p><a className="hover" href="http://ptns.jp/jewelry/index.html" target="_blank" rel="noopener noreferrer">詳細はこちら</a></p>
+                  <p><a href="http://ptns.jp/jewelry/index.html" className="hover" target="_blank" rel="noopener noreferrer">詳細はこちら</a></p>
                 </section>
               </section>
               <section className="service-pake">
@@ -178,7 +179,7 @@ export default function Home({data}) {
                 <section>
                   <h2>虹の橋ゆうびん館（お手紙）</h2>
                   <p>「虹の橋のたもと」にいる大好きな子にお手紙を書いてみませんか？　2～3週間後、あの子から「写真入りオリジナルメッセージ」が届きます。<br /><span style={{color: '#f07020', fontSize: '92%', fontWeight: 'bold'}}>当施設にてご購入いただけます。</span></p>
-                  <p><a className="hover" href="https://www.nijinohashi-yuubinkan.com/" target="_blank" rel="noopener noreferrer">詳細はこちら</a></p>
+                  <p><a href="https://www.nijinohashi-yuubinkan.com/" className="hover" target="_blank" rel="noopener noreferrer">詳細はこちら</a></p>
                 </section>
               </section>
             </div>
@@ -194,7 +195,7 @@ export default function Home({data}) {
               <div className="txt">
                 <h2 className="midasi3"><span><img src="/images/icon/5.png" alt="ドライアイス店の紹介／雪のアイコン" /></span>ドライアイス店のご紹介</h2>
                 <p>大事なペットさんをきれいな状態で送り出してあげるために必要なドライアイス。こちらではドライアイスを購入できるお店をいくつかご紹介したいと思います。</p>
-                <div className="detail-btn area"><a className="hover" href="/dryice/">詳細はこちら</a></div>
+                <div className="detail-btn area"><Link to="/dryice/" className="hover">詳細はこちら</Link></div>
               </div>
             </div>
           </div>		
@@ -206,18 +207,15 @@ export default function Home({data}) {
             <div className="float-box">
             <section id="topics-header">
               <h2>トピックス</h2>
-              <p><a href="/topics/">&gt;&nbsp;一覧を見る</a></p><div class="both"></div>
+              <p><Link to="/topics/">&gt;&nbsp;一覧を見る</Link></p><div className="both"></div>
             </section>
-          {data.allMicrocmsTopics.edges.map(({ node }) => (
-          
+          {data.allMicrocmsTopics.edges.map(({ node }) => (          
             
-            <dl className='news'>
+            <dl className='news' key={node.topicsId}>
               <dt>{node.date}</dt>
-              <dd><a href={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>{node.title}</a><br />
+              <dd><Link to={'/topics/' + node.category.slug + '/' + node.topicsId + '/'}>{node.title}</Link><br />
               {node.excerpt}...</dd>
-            </dl>
-          
-                      
+            </dl>     
             
                 ))}
                   </div>
@@ -229,14 +227,14 @@ export default function Home({data}) {
         <div className="wrap">
           <article className="poem">
             <div className="poem-rb">
-              <a href="/topics/news/w3l1rlm63/">
+              <Link to="/topics/news/w3l1rlm63/">
                 <StaticImage src="../images/top/RainbowBridge.jpg" alt="虹の橋のお話" />
-              </a>
+              </Link>
             </div>
             <div className="poem-tc">
-              <a href="/topics/news/n5oyirg6s/">
+              <Link to="/topics/news/n5oyirg6s/">
                 <StaticImage src="../images/top/TenCommandments.jpg" alt="犬の十戒のお話" />
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -245,22 +243,22 @@ export default function Home({data}) {
       <section className="container pink">
           <div className="wrap investigation">
             <h2 className="midasi2"><span><img src="/images/icon/4.png" alt="ばい煙測定調査アイコン" /></span>火葬炉の「ばい煙測定調査」実施</h2>
-            <div><img src="/images/cremator.jpg" alt="ペットの火葬炉" /></div>
+            <img src="/images/cremator.jpg" alt="ペットの火葬炉" />
             <p>愛心ペットセレモニーでは、埼玉県の条例を遵守し、ペット火葬炉の「ばい煙測定調査」を年2回実施しています。<br />
               移動火葬車には環境測定の義務がないものの、固定火葬炉には義務付けられています。<br />
               ばい塵濃度は、埼玉県の規制基準の約34分の1、塩化水素濃度は50分の1と、もはや測定の意義すら考えさせられるほど埼玉県の環境基準を大幅にクリアしています。<br />
               測定費用は高額にかかるのですが、定期的な点検や安全に火葬炉を稼動させるための維持管理の一環でもありますし、何よりもご利用いただくお客様から安心してお任せいただけるようしっかりと条例を遵守し測定しておりますので、どうぞ安心してご利用下さい。
             </p>
-            <a href="/images/investigation2023-03.pdf" target="_blank" rel="noopener noreferrer">最新測定調査証 （PDF）</a>
+            <Link to="/images/investigation2023-03.pdf" target="_blank" rel="noopener noreferrer">最新測定調査証 （PDF）</Link>
           </div>
         </section>
         <aside id="links">
           <ul className="wrap">            
-            <li><a className="hover" href="https://www.petsatooyakai.com/" target="_blank" rel="noopener noreferrer">
+            <li><a href="https://www.petsatooyakai.com/" className="hover" target="_blank" rel="noopener noreferrer">
                 <StaticImage src="../images/footer/bunner_satooyakai.jpg" alt="NPO法人ペット里親会" /></a></li>
-            <li><a className="hover" href="http://www.petsougi.net/" target="_blank" rel="noopener noreferrer">
+            <li><a href="http://www.petsougi.net/" className="hover" target="_blank" rel="noopener noreferrer">
                 <StaticImage src="../images/footer/bunner_anshin.jpg" alt="ペット葬儀・霊園ネットの安心マーク" /></a></li>
-            <li><a className="hover" href="http://www.pet-farewell.net/"target="_blank" rel="noopener noreferrer">
+            <li><a href="http://www.pet-farewell.net/" className="hover" target="_blank" rel="noopener noreferrer">
                 <StaticImage src="../images/footer/bunner_sougimap.jpg" alt="ペット葬儀マップ"  /></a></li>
           </ul>
         </aside>

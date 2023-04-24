@@ -37,16 +37,16 @@ const column = ({data}) => {
               <h1 id="display-item">{pagemeta.subTitle}の記事一覧</h1>
             
                 {data.allMicrocmsTopics.edges.map(({ node }) => (
-                    <article class="list">
-                      <p class="date">
+                    <article className="list">
+                      <p className="date">
                         <span className='cat_list'>{node.category.name}</span>
-                        <span class="blobdate">{node.date}</span>
+                        <span className="blobdate">{node.date}</span>
                       </p>
-                      <div class="rack">
-                        <h1 class="arrange">
+                      <div className="rack">
+                        <h1 className="arrange">
                           <Link to={'/topics/' + node.topicsId + '/'}>{node.title}</Link>
                         </h1>
-                        <p class="preface">
+                        <p className="preface">
                           <Link to={'/topics/' + node.topicsId + '/'}>{node.excerpt}</Link>
                         </p>
                       </div>
