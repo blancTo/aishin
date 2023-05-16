@@ -14,7 +14,8 @@ import Nav from '../components/Nav';
 import Mainimege from '../components/Mainimege';
 import Footer from '../components/Footer';
 import Iframe from 'react-iframe'
-
+import EigyoIframe from '../components/EigyoIframe';
+const eigyourl = "https://www.aishin2484.jp/business_guide.php";
 export default function Home({data}) {
   return (
     <>
@@ -92,7 +93,7 @@ export default function Home({data}) {
 
                 <div className="eigyo-info">
                   
-                  <Iframe url="https://www.aishin2484.jp/business_guide.php" />
+                <EigyoIframe src={eigyourl} />
                   
                 </div>
 

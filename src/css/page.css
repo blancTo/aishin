@@ -1147,13 +1147,13 @@ div.map-canvas{
 	.hokenjyo_l,.hokenjyo_r { width: 100%; }
 }
 
-.gmap {
+.ggmap {
 	width: 100%;
 	position: relative;
 	padding-top: 56.25%;
 }
 
-.gmap iframe {
+.ggmap iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
