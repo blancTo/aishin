@@ -23,7 +23,7 @@ const EigyoIframe = ({ src }) => {
       };
     }, []);
   
-    return <iframe ref={iframeRef} src={src} />;
+    return <iframe ref={iframeRef} title="営業のお知らせ" src={src} />;
   };
   
 export default EigyoIframe;
