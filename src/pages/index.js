@@ -1,7 +1,6 @@
 import React from 'react'
 
-import { graphql } from 'gatsby'
-import { Link } from "gatsby"
+import { graphql ,Link } from "gatsby"
 
 import { StaticImage } from "gatsby-plugin-image"
 import { AnchorLink } from "gatsby-plugin-anchor-links";
@@ -16,6 +15,7 @@ import Footer from '../components/Footer';
 import Iframe from 'react-iframe'
 import EigyoIframe from '../components/EigyoIframe';
 const eigyourl = "https://www.aishin2484.jp/business_guide.php";
+
 export default function Home({data}) {
   return (
     <>
@@ -367,9 +367,6 @@ query {
         excerpt
       }
     }
-  }
-  microcmsNotice {
-    txt
   }
 }
 `

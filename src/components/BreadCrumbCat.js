@@ -1,5 +1,4 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 
 const BreadCrumbCat = (props) => {
     const siteurl = "https://www.aishin2484.jp";
@@ -34,25 +33,3 @@ const BreadCrumbCat = (props) => {
 }
 
 export default BreadCrumbCat
-
-export const query = graphql`
-query {
-  allMicrocmsTopics(filter: {category: {slug: {eq: "news"}}}, limit: 30) {
-    edges {
-      node {
-        title
-        topicsId
-        slug
-        date(formatString: "YYYY年MM月DD日")
-        category {
-          slug
-          name
-          id
-        }
-        excerpt
-        body
-      }
-    }
-  }
-}
-`
