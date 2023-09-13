@@ -347,7 +347,7 @@ export const Head = () => (
     <Seo />
     
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-    <script type="text/javascript" src="/js/cal.js"></script>
+    <script src="/js/cal.js" charSet='UTF-8'></script>
   </>
 )
 
