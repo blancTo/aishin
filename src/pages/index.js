@@ -12,6 +12,7 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Mainimege from '../components/Mainimege';
 import Footer from '../components/Footer';
+import TopCalender from '../components/TopCalender'
 
 export default function Home({data}) {
   return (
@@ -80,9 +81,7 @@ export default function Home({data}) {
 
             <section id="eigyo-cal">
               
-              <div id="cal0" className="cal_wrapper">
-                Calendar Loading
-              </div>
+              <TopCalender />
 
               <p className='teikyu_txt'>定休日</p>
             </section>
@@ -344,10 +343,8 @@ const jsonLd = {
 export const Head = () => (
   <>
   <body id="pagetop" />
-    <Seo />
-    
+    <Seo />    
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-    <script src="/js/cal.js" charSet='UTF-8'></script>
   </>
 )
 
