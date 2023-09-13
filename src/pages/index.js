@@ -12,9 +12,6 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Mainimege from '../components/Mainimege';
 import Footer from '../components/Footer';
-import Iframe from 'react-iframe'
-import EigyoIframe from '../components/EigyoIframe';
-const eigyourl = "https://www.aishin2484.jp/business_guide.php";
 
 export default function Home({data}) {
   return (
@@ -83,19 +80,21 @@ export default function Home({data}) {
 
             <section id="eigyo-cal">
               
-            <Iframe url="https://www.aishin2484.jp/cal.html" width="100%" id="cal" display="block" position="relative"/>
+              <div id="cal0" className="cal_wrapper">
+                Calendar Loading
+              </div>
 
               <p className='teikyu_txt'>定休日</p>
             </section>
 
             <section id="business-info">
               <article>
-
-                <div className="eigyo-info">
                   
-                <EigyoIframe src={eigyourl} />
-                  
-                </div>
+                <div className="eigyo-info"
+                    dangerouslySetInnerHTML={{
+                        __html:data.microcmsNotice.txt
+                    }}
+                />
 
               </article>
               <section id="contact-information">
@@ -346,7 +345,9 @@ export const Head = () => (
   <>
   <body id="pagetop" />
     <Seo />
-    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>    
+    
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+    <script type="text/javascript" src="/js/cal.js"></script>
   </>
 )
 
@@ -367,6 +368,9 @@ query {
         excerpt
       }
     }
+  }
+  microcmsNotice {
+    txt
   }
 }
 `
