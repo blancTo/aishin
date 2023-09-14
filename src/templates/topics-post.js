@@ -12,7 +12,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons"
 
-const siteurl = "https://www.aishin2484.jp";
+const siteurl = "https://aishin2484.jp";
 
 export default function TopicsPost({data}) {
   return (

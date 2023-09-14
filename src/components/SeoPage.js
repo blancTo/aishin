@@ -31,42 +31,42 @@ const SeoPage = ({ title, title2, description,keyword, image, article }) => {
         "itemListElement":[
           {
             "@type":"ListItem",
-            "@id":"https://www.aishin2484.jp/#listItem",
+            "@id":"https://aishin2484.jp/#listItem",
             "position":1,
             "item":{
               "@type":"WebPage",
-              "@id":"https://www.aishin2484.jp/",
+              "@id":"https://aishin2484.jp/",
               "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉",
               "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-              "url":"https://www.aishin2484.jp/"
+              "url":"https://aishin2484.jp/"
             },
-            "nextItem":"https://www.aishin2484.jp/topics/#listItem"
+            "nextItem":"https://aishin2484.jp/topics/#listItem"
           },
           {
             "@type":"ListItem",
-            "@id":"https://www.aishin2484.jp/topics/#listItem",
+            "@id":"https://aishin2484.jp/topics/#listItem",
             "position":2,
             "item":{
               "@type":"WebPage",
-              "@id":"https://www.aishin2484.jp/topics/",
+              "@id":"https://aishin2484.jp/topics/",
               "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜",
               "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」のトピックスの最近の記事一覧。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
-              "url":"https://www.aishin2484.jp/topics/"
+              "url":"https://aishin2484.jp/topics/"
             },
-            "nextItem":"https://www.aishin2484.jp/topics/blog/#listItem"
+            "nextItem":"https://aishin2484.jp/topics/blog/#listItem"
           },
           {
             "@type":"ListItem",
-            "@id":"https://www.aishin2484.jp/topics/blog/#listItem",
+            "@id":"https://aishin2484.jp/topics/blog/#listItem",
             "position":3,
             "item":{
               "@type":"WebPage",
-              "@id":"https://www.aishin2484.jp/topics/blog/",
+              "@id":"https://aishin2484.jp/topics/blog/",
               "name":"埼玉のペット火葬（川越市、所沢市、さいたま市） | 愛心ペットセレモ二ー埼玉｜",
               "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」のブログの最近の記事一覧。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
-              "url":"https://www.aishin2484.jp/topics/blog/"
+              "url":"https://aishin2484.jp/topics/blog/"
             },
-            "nextItem":"https://www.aishin2484.jp/topics/blog/#listItem"
+            "nextItem":"https://aishin2484.jp/topics/blog/#listItem"
           },
           {
             "@type":"ListItem",
@@ -79,7 +79,7 @@ const SeoPage = ({ title, title2, description,keyword, image, article }) => {
               "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」のブログの最近の記事一覧。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
               "url":`${seo.url}`
             },
-            "previousItem":"https://www.aishin2484.jp/#listItem"
+            "previousItem":"https://aishin2484.jp/#listItem"
           }
         ]
       },
@@ -140,7 +140,7 @@ const SeoPage = ({ title, title2, description,keyword, image, article }) => {
       {/*
         <PageMap>
           <DataObject type="thumbnail">
-            <Attribute name="src" value="https://www.aishin2484.jp/images/ogp.jpg"/>
+            <Attribute name="src" value="https://aishin2484.jp/images/ogp.jpg"/>
             <Attribute name="width" value="120"/>
             <Attribute name="height" value="120"/>
           </DataObject>

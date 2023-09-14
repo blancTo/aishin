@@ -10,7 +10,7 @@ export default class FullheightIframe extends Component {
 
     renderReactFrame() {
         return (
-            <Iframe url="https://www.aishin2484.jp/business_guide.php" width="100%" height="100%" onLoad={()=>{console.log("IFRAME ON LOAD")}}></Iframe>
+            <Iframe url="https://aishin2484.jp/business_guide.php" width="100%" height="100%" onLoad={()=>{console.log("IFRAME ON LOAD")}}></Iframe>
         );
     }
 
@@ -22,7 +22,7 @@ export default class FullheightIframe extends Component {
                     // NOT WORKING obj.nativeEvent.contentWindow.document.body.scrollHeight // contentWindow undefined
                 }} 
                 ref="iframe" 
-                src="https://www.aishin2484.jp/business_guide.php" 
+                src="https://aishin2484.jp/business_guide.php" 
                 width="100%" 
                 height="100%" 
                 scrolling="no" 

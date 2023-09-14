@@ -1,7 +1,7 @@
 import React from 'react'
 
 const BreadCrumb = (props) => {    
-    const siteurl = "https://www.aishin2484.jp/";
+    const siteurl = "https://aishin2484.jp/";
   return (
     <>
         <div id="breadcrumb">

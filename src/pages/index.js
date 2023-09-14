@@ -277,24 +277,24 @@ const jsonLd = {
   "@graph":[
     {
       "@type":"WebSite",
-      "@id":"https://www.aishin2484.jp/#website",
-      "url":"https://www.aishin2484.jp/",
+      "@id":"https://aishin2484.jp/#website",
+      "url":"https://aishin2484.jp/",
       "name":`${jsonN}`,
       "description":`${jsonD}`,
       "inLanguage":"ja",
       "publisher":{
-        "@id":"https://www.aishin2484.jp/#organization"
+        "@id":"https://aishin2484.jp/#organization"
       }
     },
     {
       "@type": "Organization",
-      "@id":"https://www.aishin2484.jp/#organization",
+      "@id":"https://aishin2484.jp/#organization",
       "name":`${jsonN}`,
       "description":`${jsonD}`,
-      "url":"https://www.aishin2484.jp/",
+      "url":"https://aishin2484.jp/",
       "logo":{
         "@type": "ImageObject",
-        "url":"https://www.aishin2484.jp/images/logo.png"
+        "url":"https://aishin2484.jp/images/logo.png"
       },      
       "sameAs":[
         "https://www.facebook.com/aishin2484",
@@ -309,8 +309,8 @@ const jsonLd = {
     },
     {
       "@type":"WebPage",
-      "@id":"https://www.aishin2484.jp/#webPage",
-      "url":"https://www.aishin2484.jp/",
+      "@id":"https://aishin2484.jp/#webPage",
+      "url":"https://aishin2484.jp/",
       "name":`${jsonN}`,
       "description":`${jsonD}`,
       "inLanguage":"ja",      
@@ -325,7 +325,7 @@ const jsonLd = {
           "@type": "ListItem",
           "position": 1,
           "name": "埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
-          "item": "https://www.aishin2484.jp/"
+          "item": "https://aishin2484.jp/"
         }
       ]
     },

@@ -97,65 +97,65 @@ const jsonLd = {
   "@graph":[
     {
       "@type":"BreadcrumbList",
-      "@id":"https://www.aishin2484.jp/topics/#breadcrumblist",
+      "@id":"https://aishin2484.jp/topics/#breadcrumblist",
       "itemListElement":[
         {
           "@type":"ListItem",
-          "@id":"https://www.aishin2484.jp/#listItem",
+          "@id":"https://aishin2484.jp/#listItem",
           "position":1,
           "item":{
             "@type":"WebPage",
-            "@id":"https://www.aishin2484.jp/",
+            "@id":"https://aishin2484.jp/",
             "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
             "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
-            "url":"https://www.aishin2484.jp/"
+            "url":"https://aishin2484.jp/"
           },
-          "nextItem":"https://www.aishin2484.jp/topics/#listItem"
+          "nextItem":"https://aishin2484.jp/topics/#listItem"
         },
         {
           "@type":"ListItem",
-          "@id":"https://www.aishin2484.jp/topics/#listItem",
+          "@id":"https://aishin2484.jp/topics/#listItem",
           "position":2,
           "item":{
             "@type":"WebPage",
-            "@id":"https://www.aishin2484.jp/topics/",
+            "@id":"https://aishin2484.jp/topics/",
             "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】｜トピックスの最近の記事一覧",
             "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」のトピックスの最近の記事一覧。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
-            "url":"https://www.aishin2484.jp/topics/"
+            "url":"https://aishin2484.jp/topics/"
           },
-          "previousItem":"https://www.aishin2484.jp/#listItem"
+          "previousItem":"https://aishin2484.jp/#listItem"
         }
       ]
     },
     {
       "@type":"Person",
-      "@id":"https://www.aishin2484.jp/topics/#person"
+      "@id":"https://aishin2484.jp/topics/#person"
     },
     {
       "@type":"WebPage",
-      "@id":"https://www.aishin2484.jp/topics/#webpage",
-      "url":"https://www.aishin2484.jp/topics/",
+      "@id":"https://aishin2484.jp/topics/#webpage",
+      "url":"https://aishin2484.jp/topics/",
       "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】｜トピックスの最近の記事一覧",
       "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」のトピックスの最近の記事一覧。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
       "inLanguage":"ja",
       "isPartOf":{
-        "@id":"https://www.aishin2484.jp/topics/#website"
+        "@id":"https://aishin2484.jp/topics/#website"
       },
       "breadcrumb":{
-        "@id":"https://www.aishin2484.jp/topics/#breadcrumblist"
+        "@id":"https://aishin2484.jp/topics/#breadcrumblist"
       },
       "datePublished":"2022-12-19T01:06:53+09:00",
       "dateModified":"2023-01-05T3:00:07+09:00"
     },
     {
       "@type":"WebSite",
-      "@id":"https://www.aishin2484.jp/topics/#website",
-      "url":"https://www.aishin2484.jp/topics/",
+      "@id":"https://aishin2484.jp/topics/#website",
+      "url":"https://aishin2484.jp/topics/",
       "name":"埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】｜トピックスの最近の記事一覧",
       "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」のトピックスの最近の記事一覧。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
       "inLanguage":"ja",
       "publisher":{
-        "@id":"https://www.aishin2484.jp/topics/#person"
+        "@id":"https://aishin2484.jp/topics/#person"
       }
     }
   ]
