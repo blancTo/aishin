@@ -12,6 +12,8 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+process.env.TZ = 'Asia/Tokyo';
+
 module.exports = {
   siteMetadata: {
     title: "埼玉県のペット火葬・葬儀なら｜愛心ペットセレモ二ー埼玉【公式】",
