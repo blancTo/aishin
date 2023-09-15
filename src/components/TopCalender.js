@@ -1,17 +1,21 @@
-import React from 'react'
+import React from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import { format } from 'date-fns';
+import { utcToZonedTime } from 'date-fns-tz';
+
+
 
 export default class App extends React.Component {
+  
   constructor(props) {
     super(props);
     this.state = {
-      date: new Date(2022, 12, 1),
-      // 月のデータ
+      date: new Date(),
       month_days: {
-        // 20221221: { is_holiday: true },
-        // 20221211: { is_holiday: true, text: '定休日' }
-      }
+        '2022-12-21': { is_holiday: true },
+        '2022-12-11': { is_holiday: true, text: '定休日' },
+      },
     };
     this.getTileClass = this.getTileClass.bind(this);
     this.getTileContent = this.getTileContent.bind(this);
@@ -41,22 +45,27 @@ export default class App extends React.Component {
 
   // 日付の内容を出力
   getTileContent({ date, view }) {
-    // 月表示のときのみ
     if (view !== 'month') {
       return null;
     }
-    const day = this.getFormatDate(date);
+    // 日付を指定したタイムゾーンに変換
+    const timeZone = 'Asia/Tokyo';
+    const zonedDate = utcToZonedTime(date, timeZone);
+
+    // 日付をフォーマット
+    const formattedDate = format(zonedDate, 'yyyy-MM-dd', { timeZone });
+
     return (
       <p>
         <br />
-        {(this.state.month_days[day] && this.state.month_days[day].text) ?
-          this.state.month_days[day].text : ' '
-        }
+        {(this.state.month_days[formattedDate] && this.state.month_days[formattedDate].text) ?
+          this.state.month_days[formattedDate].text : ' '}
       </p>
     );
   }
 
   render() {
+    
     return (
       <div>
         <Calendar
