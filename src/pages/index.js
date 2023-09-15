@@ -12,7 +12,7 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Mainimege from '../components/Mainimege';
 import Footer from '../components/Footer';
-import TopCalender from '../components/TopCalender'
+import TopCalender from '../components/TopCal'
 
 export default function Home({data}) {
   return (

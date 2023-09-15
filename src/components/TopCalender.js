@@ -29,10 +29,13 @@ export default class App extends React.Component {
   getTileClass({ date, view }) {
     // 月表示のときのみ
     if (view === 'month') {
-      const currentDate = new Date(); // 今日の日付
-      currentDate.setDate(currentDate.getDate() - 1); // 昨日の日付
+      const currentDate = new Date(); // 現在の日付
       const day = new Date(date);
-      // 日付を比較し、昨日より前の場合に任意のクラスを付けます
+
+      console.log('date', date); // 日付
+    console.log('currentDate', currentDate); // 現在の日付
+
+      // 日付を比較し、現在の日付より前の場合に任意のクラスを付けます
       if (day < currentDate) {
         return 'maedate'; // 任意のクラス名をここに指定
       }
@@ -69,7 +72,7 @@ export default class App extends React.Component {
       <div>
         <Calendar
           locale="ja-JP"
-          calendarType="US"
+          calendarType="gregory"
           tileClassName={this.getTileClass}
           tileContent={this.getTileContent}
         />
