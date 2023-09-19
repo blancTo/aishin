@@ -66,8 +66,15 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    const today = new Date(); // 今日の日付
-    this.setState({ date: today });
+    // URLから日付を取得
+    const urlParams = new URLSearchParams(window.location.search);
+    const dateString = urlParams.get('date');
+    const selectedDate = dateString ? new Date(dateString) : new Date();
+
+    this.setState({ date: selectedDate });
+
+    // ブラウザから取得した日付をコンソールログに表示
+    console.log('ブラウザから取得した日付:', selectedDate);
   }
 
   render() {
@@ -78,6 +85,7 @@ export default class App extends React.Component {
           calendarType="gregory"
           tileClassName={this.getTileClass}
           tileContent={this.getTileContent}
+          value={this.state.date} // ブラウザから取得した日付を表示
         />
       </div>
     );
