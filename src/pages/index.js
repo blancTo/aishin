@@ -160,7 +160,7 @@ export default function Home({ data }) {
                   </div>
                   <div id='introduction'>
                     <h6>
-                      <StaticImage src='../images/top/hbikke.png' width={280} height={36} alt='ペット火葬・葬儀「愛心ペットセレモニー埼玉」店長のご紹介' />
+                      <StaticImage src='../images/top/hbikke.png' width={280} height={36} loading='lazy' alt='ペット火葬・葬儀「愛心ペットセレモニー埼玉」店長のご紹介' />
                     </h6>
                     <p>施設店長猫の（ビッケ）です。癒しを担当しています。　がっ… たまにサボって遊びにイっちゃいます！</p>
                   </div>
@@ -175,14 +175,14 @@ export default function Home({ data }) {
           <div className='wrap'>
             <h5 className='midasi'>
               <span>
-                <img src='/images/icon/2.png' alt='ペット火葬・葬儀サービス案内犬のアイコン' />
+                <img src='/images/icon/2.png' width={30} height={27} loading='lazy' alt='ペット火葬・葬儀サービス案内犬のアイコン' />
               </span>
               ペット火葬・葬儀サービスのご案内
             </h5>
             <div className='flex-box'>
               <section className='service-pake'>
                 <div className='service_img'>
-                  <StaticImage src='../images/top/1.jpg' width={180} alt='ペット斎場火葬' />
+                  <StaticImage src='../images/top/1.jpg' width={186} height={132} loading='lazy' alt='ペット斎場火葬' />
                 </div>
                 <section>
                   <h2>ペット火葬・葬儀</h2>
@@ -196,7 +196,7 @@ export default function Home({ data }) {
               </section>
               <section className='service-pake'>
                 <div className='service_img'>
-                  <StaticImage src='../images/top/2.jpg' alt='ペット葬儀・ホームセレモニー' />
+                  <StaticImage src='../images/top/2.jpg' width={186} height={132} loading='lazy' alt='ペット葬儀・ホームセレモニー' />
                 </div>
                 <section>
                   <h2>ホームセレモニー</h2>
@@ -214,7 +214,7 @@ export default function Home({ data }) {
               </section>
               <section className='service-pake'>
                 <div className='service_img'>
-                  <StaticImage src='../images/top/3.jpg' alt='ペット納骨場' />
+                  <StaticImage src='../images/top/3.jpg' width={186} height={132} loading='lazy' alt='ペット納骨場' />
                 </div>
                 <section>
                   <h2>納骨サービス</h2>
@@ -232,7 +232,7 @@ export default function Home({ data }) {
               </section>
               <section className='service-pake'>
                 <div className='service_img'>
-                  <StaticImage src='../images/top/4.jpg' alt='ペットの粉骨サービス' />
+                  <StaticImage src='../images/top/4.jpg' width={186} height={132} loading='lazy' alt='ペットの粉骨サービス' />
                 </div>
                 <section>
                   <h2>粉骨サービス</h2>
@@ -246,7 +246,7 @@ export default function Home({ data }) {
               </section>
               <section className='service-pake'>
                 <div className='service_img'>
-                  <StaticImage src='../images/top/5.jpg' alt='メモリアルジュエリー' />
+                  <StaticImage src='../images/top/5.jpg' width={186} height={132} loading='lazy' alt='メモリアルジュエリー' />
                 </div>
                 <section>
                   <h2>メモリアルジュエリー</h2>
@@ -264,7 +264,7 @@ export default function Home({ data }) {
               </section>
               <section className='service-pake'>
                 <div className='service_img'>
-                  <StaticImage src='../images/top/6.jpg' alt='虹の橋ゆうびん館' />
+                  <StaticImage src='../images/top/6.jpg' width={186} height={132} loading='lazy' alt='虹の橋ゆうびん館' />
                 </div>
                 <section>
                   <h2>虹の橋ゆうびん館（お手紙）</h2>
@@ -288,7 +288,7 @@ export default function Home({ data }) {
           <div className='wrap dryice'>
             <div className='dryice-inner'>
               <div className='img'>
-                <StaticImage src='../images/top/dryice.jpg' alt='ドライアイスの写真' />
+                <StaticImage src='../images/top/dryice.jpg' width={403} height={269} loading='lazy' alt='ドライアイスの写真' />
               </div>
               <div className='txt'>
                 <h2 className='midasi3'>
@@ -339,12 +339,12 @@ export default function Home({ data }) {
             <article className='poem'>
               <div className='poem-rb'>
                 <Link to='/topics/news/w3l1rlm63/'>
-                  <StaticImage src='../images/top/RainbowBridge.jpg' alt='虹の橋のお話' />
+                  <StaticImage src='../images/top/RainbowBridge.jpg' width={646} height={430} loading='lazy' alt='虹の橋のお話' />
                 </Link>
               </div>
               <div className='poem-tc'>
                 <Link to='/topics/news/n5oyirg6s/'>
-                  <StaticImage src='../images/top/TenCommandments.jpg' loading='lazy' alt='犬の十戒のお話' />
+                  <StaticImage src='../images/top/TenCommandments.jpg' width={646} height={430} loading='lazy' alt='犬の十戒のお話' />
                 </Link>
               </div>
             </article>
@@ -382,17 +382,17 @@ export default function Home({ data }) {
           <ul className='wrap'>
             <li>
               <a href='https://www.petsatooyakai.com/' className='hover' target='_blank' rel='noopener noreferrer'>
-                <StaticImage src='../images/footer/bunner_satooyakai.jpg' loading='lazy' alt='NPO法人ペット里親会' />
+                <StaticImage src='../images/footer/bunner_satooyakai.jpg' width={239} height={65} loading='lazy' alt='NPO法人ペット里親会' />
               </a>
             </li>
             <li>
               <a href='http://www.petsougi.net/' className='hover' target='_blank' rel='noopener noreferrer'>
-                <StaticImage src='../images/footer/bunner_anshin.jpg' loading='lazy' alt='ペット葬儀・霊園ネットの安心マーク' />
+                <StaticImage src='../images/footer/bunner_anshin.jpg' width={155} height={65} loading='lazy' alt='ペット葬儀・霊園ネットの安心マーク' />
               </a>
             </li>
             <li>
               <a href='http://www.pet-farewell.net/' className='hover' target='_blank' rel='noopener noreferrer'>
-                <StaticImage src='../images/footer/bunner_sougimap.jpg' alt='ペット葬儀マップ' />
+                <StaticImage src='../images/footer/bunner_sougimap.jpg' width={120} height={65} alt='ペット葬儀マップ' />
               </a>
             </li>
           </ul>
