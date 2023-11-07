@@ -108,7 +108,7 @@ export default function Home({ data }) {
           <div className='wrap'>
             <h5 className='midasi'>
               <span>
-                <img src='/images/icon/1.png' alt='営業お知らせアイコン' />
+                <img src='/images/icon/1.png' width={21} height={21} loading='lazy' alt='営業お知らせアイコン' />
               </span>
               営業のお知らせ
             </h5>
@@ -150,17 +150,17 @@ export default function Home({ data }) {
                       お問い合わせは
                       <br />
                       こちら
-                      <img src='/images/arrow1.png' alt='お問い合わせ矢印' />
+                      <img src='/images/arrow1.png' width={9} height={22} loading='lazy' alt='お問い合わせ矢印' />
                     </Link>
                   </div>
                 </section>
                 <section id='bikke'>
                   <div id='idp'>
-                    <StaticImage src='../images/top/bikke.png' alt='猫のビッケの写真' />
+                    <StaticImage src='../images/top/bikke.png' width={160} height={160} loading='lazy' alt='猫のビッケの写真' />
                   </div>
                   <div id='introduction'>
                     <h6>
-                      <StaticImage src='../images/top/hbikke.png' alt='ペット火葬・葬儀「愛心ペットセレモニー埼玉」店長のご紹介' />
+                      <StaticImage src='../images/top/hbikke.png' width={280} height={36} alt='ペット火葬・葬儀「愛心ペットセレモニー埼玉」店長のご紹介' />
                     </h6>
                     <p>施設店長猫の（ビッケ）です。癒しを担当しています。　がっ… たまにサボって遊びにイっちゃいます！</p>
                   </div>
@@ -201,7 +201,7 @@ export default function Home({ data }) {
                 <section>
                   <h2>ホームセレモニー</h2>
                   <p>
-                    火葬後のご遺骨はどうなさっ ていますか？自宅向けのペット墓石を造りご供養されてはいかがでしょう。
+                    火葬後のご遺骨はどうなさっていますか？自宅向けのペット墓石を造りご供養されてはいかがでしょう。
                     <br />
                     <br />
                   </p>
@@ -293,7 +293,7 @@ export default function Home({ data }) {
               <div className='txt'>
                 <h2 className='midasi3'>
                   <span>
-                    <img src='/images/icon/5.png' alt='ドライアイス店の紹介／雪のアイコン' />
+                    <img src='/images/icon/5.png' width={26} height={21} loading='lazy' alt='ドライアイス店の紹介／雪のアイコン' />
                   </span>
                   ドライアイス店のご紹介
                 </h2>
@@ -344,7 +344,7 @@ export default function Home({ data }) {
               </div>
               <div className='poem-tc'>
                 <Link to='/topics/news/n5oyirg6s/'>
-                  <StaticImage src='../images/top/TenCommandments.jpg' alt='犬の十戒のお話' />
+                  <StaticImage src='../images/top/TenCommandments.jpg' loading='lazy' alt='犬の十戒のお話' />
                 </Link>
               </div>
             </article>
@@ -355,35 +355,39 @@ export default function Home({ data }) {
           <div className='wrap investigation'>
             <h2 className='midasi2'>
               <span>
-                <img src='/images/icon/4.png' alt='ばい煙測定調査アイコン' />
+                <img src='/images/icon/4.png' width={30} height={27} loading='lazy' alt='ばい煙測定調査アイコン' />
               </span>
               火葬炉の「ばい煙測定調査」実施
             </h2>
-            <img src='/images/cremator.jpg' alt='ペットの火葬炉' />
-            <p>
-              愛心ペットセレモニーでは、埼玉県の条例を遵守し、ペット火葬炉の「ばい煙測定調査」を年2回実施しています。
-              <br />
-              移動火葬車には環境測定の義務がないものの、固定火葬炉には義務付けられています。
-              <br />
-              ばい塵濃度は、埼玉県の規制基準の約34分の1、塩化水素濃度は50分の1と、もはや測定の意義すら考えさせられるほど埼玉県の環境基準を大幅にクリアしています。
-              <br />
-              測定費用は高額にかかるのですが、定期的な点検や安全に火葬炉を稼動させるための維持管理の一環でもありますし、何よりもご利用いただくお客様から安心してお任せいただけるようしっかりと条例を遵守し測定しておりますので、どうぞ安心してご利用下さい。
-            </p>
-            <a href='/images/investigation2023-09.pdf' target='_blank' rel='noopener noreferrer'>
-              最新測定調査証 （PDF）
-            </a>
+            <div className='flex-wrap'>
+              <StaticImage src='../images/cremator.jpg' className='investigation_img' width={330} height={267} loading='lazy' alt='ペットの火葬炉' />
+              <div className='investigation_txt'>
+                <p>
+                  愛心ペットセレモニーでは、埼玉県の条例を遵守し、ペット火葬炉の「ばい煙測定調査」を年2回実施しています。
+                  <br />
+                  移動火葬車には環境測定の義務がないものの、固定火葬炉には義務付けられています。
+                  <br />
+                  ばい塵濃度は、埼玉県の規制基準の約34分の1、塩化水素濃度は50分の1と、もはや測定の意義すら考えさせられるほど埼玉県の環境基準を大幅にクリアしています。
+                  <br />
+                  測定費用は高額にかかるのですが、定期的な点検や安全に火葬炉を稼動させるための維持管理の一環でもありますし、何よりもご利用いただくお客様から安心してお任せいただけるようしっかりと条例を遵守し測定しておりますので、どうぞ安心してご利用下さい。
+                </p>
+                <a href='/images/investigation2023-09.pdf' target='_blank' rel='noopener noreferrer'>
+                  最新測定調査証 （PDF）
+                </a>
+              </div>
+            </div>
           </div>
         </section>
         <aside id='links'>
           <ul className='wrap'>
             <li>
               <a href='https://www.petsatooyakai.com/' className='hover' target='_blank' rel='noopener noreferrer'>
-                <StaticImage src='../images/footer/bunner_satooyakai.jpg' alt='NPO法人ペット里親会' />
+                <StaticImage src='../images/footer/bunner_satooyakai.jpg' loading='lazy' alt='NPO法人ペット里親会' />
               </a>
             </li>
             <li>
               <a href='http://www.petsougi.net/' className='hover' target='_blank' rel='noopener noreferrer'>
-                <StaticImage src='../images/footer/bunner_anshin.jpg' alt='ペット葬儀・霊園ネットの安心マーク' />
+                <StaticImage src='../images/footer/bunner_anshin.jpg' loading='lazy' alt='ペット葬儀・霊園ネットの安心マーク' />
               </a>
             </li>
             <li>
