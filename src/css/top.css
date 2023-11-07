@@ -1361,18 +1361,19 @@ table.isp-business-calendar td {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 0;
 }
-#main .container .investigation .investigation_img {
-  margin-top: 25px;
-  width: 25%;
-}
+
 #main .container .investigation_txt {
   width: 70%;
   text-align: left;
-  margin-top: 50px;
-  margin-bottom: 40px;
   line-height: 1.5;
 }
+#main .container .investigation_txt p {
+  margin-bottom: 20px;
+}
+
 #main .container .investigation a {
   font-size: 16px;
   color: #fff;
@@ -1388,29 +1389,39 @@ table.isp-business-calendar td {
 }
 @media screen and (max-width: 1024px) {
   #main .container .investigation p {
-    width: 68%;
-    text-align: left;
     margin-top: 50px;
-    line-height: 190%;
     margin-bottom: 30px;
   }
   #main .container .investigation a {
     margin: 0 auto;
   }
-}
-@media screen and (max-width: 765px) {
-  #main .container .investigation div img {
-    display: none;
-  }
-  #main .container .investigation p {
-    width: 100%;
 
-    margin-top: 50px;
-    line-height: 190%;
+  #main .container .investigation_txt {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main .container .investigation p {
+    margin: 0 0 20px 0;
   }
   #main .container .investigation a {
     margin-bottom: 25px;
     width: 100%;
+  }
+
+  #main .container .investigation_txt {
+    width: 50%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 677px) {
+  #main .container .investigation .investigation_img {
+    width: 100%;
+  }
+  #main .container .investigation_txt {
+    width: 100%;
+    margin: 20px 0;
   }
 }
 
