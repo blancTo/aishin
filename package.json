@@ -13,29 +13,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "date-fns-tz": "^2.0.0",
-    "dayjs": "^1.11.9",
     "dotenv": "^16.0.3",
-    "gatsby": "^5.12.4",
-    "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-canonical-urls": "^5.12.0",
-    "gatsby-plugin-image": "^3.12.0",
-    "gatsby-plugin-robots-txt": "^1.8.0",
-    "gatsby-plugin-sass": "^6.12.0",
-    "gatsby-plugin-sharp": "^5.12.0",
-    "gatsby-plugin-sitemap": "^6.12.0",
-    "gatsby-remark-responsive-iframe": "^6.12.0",
-    "gatsby-source-filesystem": "^5.12.0",
-    "gatsby-source-microcms": "^3.0.0",
-    "gatsby-transformer-remark": "^6.12.0",
-    "gatsby-transformer-sharp": "^5.12.0",
     "react": "^18.2.0",
-    "react-calendar": "^4.6.0",
-    "react-dom": "^18.2.0",
-    "socket.io-parser": "^4.2.3"
+    "react-dom": "^18.2.0"
   },
   "repository": {
     "type": "git",
@@ -43,5 +23,29 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "date-fns-tz": "^2.0.0",
+    "dayjs": "^1.11.10",
+    "gatsby": "^5.12.9",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-canonical-urls": "^5.12.0",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sass": "^6.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-plugin-sitemap": "^6.12.3",
+    "gatsby-remark-responsive-iframe": "^6.12.0",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-source-microcms": "^3.0.0",
+    "gatsby-transformer-remark": "^6.12.3",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "react-calendar": "^4.6.1",
+    "sass": "^1.69.5"
   }
 }
