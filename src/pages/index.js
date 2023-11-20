@@ -387,12 +387,12 @@ export default function Home({ data }) {
             </li>
             <li>
               <a href='http://www.petsougi.net/' className='hover' target='_blank' rel='noopener noreferrer'>
-                <StaticImage src='../images/footer/bunner_anshin.jpg' width={155} height={65} loading='lazy' alt='ペット葬儀・霊園ネットの安心マーク' />
+                <StaticImage src='../images/footer/bunner_anshin.jpg' width={155} height={64} loading='lazy' alt='ペット葬儀・霊園ネットの安心マーク' />
               </a>
             </li>
             <li>
               <a href='http://www.pet-farewell.net/' className='hover' target='_blank' rel='noopener noreferrer'>
-                <StaticImage src='../images/footer/bunner_sougimap.jpg' width={120} height={65} alt='ペット葬儀マップ' />
+                <StaticImage src='../images/footer/bunner_sougimap.jpg' width={120} height={60} alt='ペット葬儀マップ' />
               </a>
             </li>
           </ul>
