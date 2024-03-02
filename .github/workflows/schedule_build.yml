@@ -1,0 +1,19 @@
+name: Schedule Build
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v2 # setup-nodeアクションのバージョンをv2に更新
+        with:
+          node-version: '18' # Node.jsのバージョンを18に設定
+      - name: Install dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
