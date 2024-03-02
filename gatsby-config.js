@@ -80,12 +80,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://aishin2484.jp/`,
+        siteUrl: `https://aishin2484.jp`,
       },
     },    
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
+        entryLimit: 50000,
+        resolveSiteUrl: () => 'https://aishin2484.jp',
         output: '/',
         excludes: ['/kawagoe','/saitama']
       }
@@ -93,13 +95,24 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://aishin2484.jp/`,
-        sitemap: `https://aishin2484.jp/sitemap-0.xml`,
+        host: `https://aishin2484.jp`,
+        sitemap: `https://aishin2484.jp/sitemap-index.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
-       
-
+    {
+      resolve: "gatsby-plugin-htaccess",
+      options: {
+        RewriteBase: "/",
+        https: true,
+        www: false,
+        SymLinksIfOwnerMatch: true,
+        host: "aishin2484.jp", // if 'www' is set to 'false', be sure to also remove it here!
+        ErrorDocument: `          
+          ErrorDocument 404 /error_pages/404.html
+        `,
+      },
+    },
     `gatsby-plugin-sass`,
   ],
 }
