@@ -371,7 +371,7 @@ export default function Home({ data }) {
                   <br />
                   測定費用は高額にかかるのですが、定期的な点検や安全に火葬炉を稼動させるための維持管理の一環でもありますし、何よりもご利用いただくお客様から安心してお任せいただけるようしっかりと条例を遵守し測定しておりますので、どうぞ安心してご利用下さい。
                 </p>
-                <a href='/images/investigation2023-09.pdf' target='_blank' rel='noopener noreferrer'>
+                <a href='/images/investigation.pdf' target='_blank' rel='noopener noreferrer'>
                   最新測定調査証 （PDF）
                 </a>
               </div>
